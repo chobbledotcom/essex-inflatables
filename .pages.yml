@@ -8,6 +8,7 @@ content:
     path: pages
     type: collection
     subfolders: false
+    filename: '{primary}.md'
     view:
       fields: [permalink, name, meta_title, header_text]
       primary: name
@@ -47,6 +48,7 @@ content:
     path: products
     type: collection
     subfolders: false
+    filename: '{primary}.md'
     fields:
       - { name: header_image, type: image, label: Header Image }
       - { name: title, type: string, label: Title }
@@ -76,6 +78,7 @@ content:
     path: categories
     type: collection
     subfolders: false
+    filename: '{primary}.md'
     fields:
       - { name: title, type: string, label: Title }
       - { name: header_image, type: image, label: Header Image }
