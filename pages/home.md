@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 0
 ---
 
-![Essex Inflatables](/assets/images/essex-banner.jpg)
+![Essex Inflatables](/images/essex-banner.jpg)
 
 ## Manufacture, Repair, and Inspections of Inflatable Play Equipment
 
@@ -24,4 +24,4 @@ We became a PIPA Inspection Body in 2004 and now offer the HSE-endorsed PIPA Ins
 ### Repairs
 
 We currently offer a full repair service for most inflatable play devices using the air cooled twin needle Sewing machine and the highest quality PVCs and thread.
-hi stefan 
+hi stefan

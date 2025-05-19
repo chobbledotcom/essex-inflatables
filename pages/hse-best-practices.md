@@ -10,7 +10,7 @@ eleventyNavigation:
 permalink: /HSE Best Practice.html # do not change!
 ---
 
-![TIPE Logo](/assets/images/tipe-logo.jpg)
+![TIPE Logo](/images/tipe-logo.jpg)
 
 The Information below is a summary put together by tipe an organization that Esses Inflatables highly recommend
 

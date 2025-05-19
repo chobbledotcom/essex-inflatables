@@ -13,10 +13,10 @@ Ellis Leisure (Bouncy Castle Hire Essex)
 
 Click Banner For Their Website
 
-[![banner](/assets/images/ellis-leisure-banner.jpg)](http://www.ellisleisure.co.uk/)
+[![banner](/images/ellis-leisure-banner.jpg)](http://www.ellisleisure.co.uk/)
 
 Tipe (Inflated Play Enterprise)
 
 Click Banner For Their Website
 
-[![tipe](/assets/images/tipe-logo.png)](http://www.tipe.co.uk/)
+[![tipe](/images/tipe-logo.png)](http://www.tipe.co.uk/)

@@ -19,7 +19,7 @@ We can also offer safety inspection of all other inflatables that do not fall wi
 
 We currently offer a full repair service for most inflatable play devices using the highest quality products, to also include repairs to continuous flow pool inflatables.
 
-![](/assets/images/dad3.jpg)
+![](/images/dad3.jpg)
 
 ### Currently Requiring PIPA Tests
 
