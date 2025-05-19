@@ -1,5 +1,5 @@
 ---
 title: Electric Fans
 categories:
-  - 2025-05-19-products-for-sale.md
+  - for-sale.md
 ---
