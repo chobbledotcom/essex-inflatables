@@ -1,15 +1,14 @@
 ---
 header_image: placeholder.jpg
 header_text: HSE Best Practice
-meta_description:
 meta_title: HSE Best Practice
-
 eleventyNavigation:
   key: HSE Best Practice
   order: 0
-permalink: /HSE Best Practice.html # do not change!
+permalink: /hse-best-practice/
+redirect_from:
+  - /HSE Best Practice.html
 ---
-
 ![TIPE Logo](/images/tipe-logo.jpg)
 
 The Information below is a summary put together by tipe an organization that Esses Inflatables highly recommend
