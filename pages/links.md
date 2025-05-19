@@ -1,14 +1,14 @@
 ---
 header_image: placeholder.jpg
 header_text: Links
-meta_description:
 meta_title: Links
 eleventyNavigation:
   key: Links
   order: 6
-permalink: "/Links.html" # do not change
+permalink: /links/
+redirect_from:
+  - /Links.html
 ---
-
 Ellis Leisure (Bouncy Castle Hire Essex)
 
 Click Banner For Their Website
