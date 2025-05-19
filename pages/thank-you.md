@@ -1,11 +1,9 @@
 ---
 header_image: placeholder.jpg
 header_text: Thank You
-meta_description:
 meta_title: Thank You
-navigationParent: Contact
+permalink: /thank-you/
 ---
-
 ## Thank You
 
 Your message has been sent - we will be in touch.
