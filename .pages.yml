@@ -50,7 +50,6 @@ content:
     fields:
       - { name: header_image, type: image, label: Header Image }
       - { name: title, type: string, label: Title }
-      - { name: date, label: Date, type: date }
       - name: categories
         label: Categories
         type: reference
