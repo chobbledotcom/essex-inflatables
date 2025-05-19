@@ -1,13 +1,11 @@
 ---
 header_image: placeholder.jpg
 header_text: Happy Hopperz
-meta_description:
-meta_title: Team
+meta_title: Happy Hopperz
 eleventyNavigation:
   key: Happy Hopperz
-  parent: Equipment for Sale
+permalink: /happy-hoppers/
 ---
-
 ## Quisque viverra
 
 Ut purus et scelerisque.
