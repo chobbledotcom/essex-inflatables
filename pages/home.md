@@ -1,5 +1,5 @@
 ---
-header_image: placeholder.jpg
+header_image: countryside.jpg
 header_text: Essex Inflatables
 meta_description:
 meta_title: Home

@@ -1,5 +1,5 @@
 ---
-header_image: placeholder.jpg
+header_image: countryside.jpg
 header_text: Contact
 meta_title: Contact
 eleventyNavigation:
@@ -10,6 +10,7 @@ permalink: /contact/
 redirect_from:
   - /Contact.html
 ---
+
 ## For All Enquiries
 
 For all enquiries please:

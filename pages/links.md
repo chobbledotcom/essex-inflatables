@@ -1,5 +1,5 @@
 ---
-header_image: placeholder.jpg
+header_image: countryside.jpg
 header_text: Links
 meta_title: Links
 eleventyNavigation:
@@ -9,6 +9,7 @@ permalink: /links/
 redirect_from:
   - /Links.html
 ---
+
 Ellis Leisure (Bouncy Castle Hire Essex)
 
 Click Banner For Their Website

@@ -1,5 +1,5 @@
 ---
-header_image: placeholder.jpg
+header_image: countryside.jpg
 header_text: Equipment for Sale
 meta_title: Equipment for Sale
 eleventyNavigation:
@@ -9,6 +9,7 @@ permalink: /equipment-for-sale/
 redirect_from:
   - /Equipement For Sale.html
 ---
+
 ## Equipment For Sale!
 
 Happy Hopperz for sale!!

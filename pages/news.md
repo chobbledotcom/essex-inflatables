@@ -1,5 +1,5 @@
 ---
-header_image: placeholder.jpg
+header_image: countryside.jpg
 header_text: News
 meta_title: News
 eleventyNavigation:
@@ -8,6 +8,7 @@ eleventyNavigation:
 layout: news-archive.html
 permalink: /news/
 ---
+
 ## Congue Ipsum
 
 Integer feugiat iaculis augue, in hendrerit sapien dapibus et. Mauris vitae est auctor, pellentesque nisl.
