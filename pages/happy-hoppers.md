@@ -4,7 +4,7 @@ header_text: Happy Hopperz
 meta_title: Happy Hopperz
 eleventyNavigation:
   key: Happy Hopperz
-permalink: /happy-hoppers/
+permalink: /happy-hopperz/
 ---
 ## Quisque viverra
 
