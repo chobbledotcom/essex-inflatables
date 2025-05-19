@@ -1,14 +1,13 @@
 ---
 header_image: placeholder.jpg
 header_text: Our Services
-meta_description:
 meta_title: Services
 eleventyNavigation:
   key: Services
   order: 1
-permalink: /Service.html # do not change
+layout: categories.html
+permalink: /services/
 ---
-
 ## A Complete Inflatable Play Equipment Service
 
 To include PIPA testing of continuous flow land inflatables.
