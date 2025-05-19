@@ -1,15 +1,15 @@
 ---
 header_image: placeholder.jpg
 header_text: Contact
-meta_description:
 meta_title: Contact
-layout: contact.html
 eleventyNavigation:
   key: Contact
   order: 4
-permalink: /Contact.html # do not change
+layout: contact.html
+permalink: /contact/
+redirect_from:
+  - /Contact.html
 ---
-
 ## For All Enquiries
 
 For all enquiries please:
