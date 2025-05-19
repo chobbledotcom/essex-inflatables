@@ -1,14 +1,14 @@
 ---
 header_image: placeholder.jpg
 header_text: Equipment for Sale
-meta_description:
 meta_title: Equipment for Sale
 eleventyNavigation:
   key: Equipment for Sale
   order: 6
-permalink: /Equipement For Sale.html # do not change
+permalink: /equipment-for-sale/
+redirect_from:
+  - /Equipement For Sale.html
 ---
-
 ## Equipment For Sale!
 
 Happy Hopperz for sale!!
