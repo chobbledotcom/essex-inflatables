@@ -1,16 +1,18 @@
 /* Black and Gold Theme */
 
+@import url(https://fonts.bunny.net/css?family=norican:400);
+
 :root {
   /* Main Colors */
   --color-bg: #000000;
   --color-bg-secondary: #111111;
   --color-bg-main: #ffffff;
-  
+
   /* Gold Variations */
   --color-gold: #d4af37;
   --color-gold-light: #f1c232;
   --color-gold-dark: #aa8c2c;
-  
+
   /* UI Colors */
   --color-text: #ffffff;
   --color-text-secondary: #cccccc;
@@ -22,26 +24,26 @@
   --color-table: var(--color-gold-dark);
   --color-shadow: rgba(0, 0, 0, 0.5);
   --color-scrollbar: var(--color-gold-dark);
-  
+
   /* Borders and Structure */
   --border: 2px solid var(--color-gold-dark);
   --border-radius: 5px;
   --border-radius-small: 3px;
   --box-shadow: 0px 2px 5px;
-  
+
   /* Interactivity */
   --hover-brightness: 1.2;
   --active-brightness: 0.9;
-  
+
   /* Layout Variables */
-  --width-content: 1080px;
+  --width-content: 1200px;
   --width-card: 285px;
   --width-card-medium: 460px;
   --width-card-wide: 800px;
-  
+
   /* Typography */
-  --font-family-heading: 'Playfair Display', Georgia, serif;
-  --font-family-body: 'Open Sans', sans-serif;
+  --font-family-heading: "Norican", Georgia, serif;
+  --font-family-body: "Open Sans", sans-serif;
   --line-height: 1.5;
   --justify-important: center;
   --justify-normal: left;
