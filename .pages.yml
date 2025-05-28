@@ -97,4 +97,5 @@ content:
     subfolders: false
     filename: '{primary}.md'
     fields:
+      - { name: name, type: string, label: Name }
       - { name: body, label: Body, type: code, options: { language: markdown } }
