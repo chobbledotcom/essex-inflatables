@@ -9,157 +9,68 @@ permalink: /hse-best-practice/
 redirect_from:
   - /HSE Best Practice.html
 ---
-
 ![TIPE Logo](/images/tipe-logo.jpg)
 
-The Information below is a summary put together by tipe an organization that Esses Inflatables highly recommend
+Inflatable Testing and Repair Service - HSE Best Practices
 
-Operators Guide To Annual Testing
+Introduction to Inflatable Testing and Legal Requirements
 
-Introduction:
-To test or not to test is probably the question most operators ask themselves at
-some time or other and many still do not understand why an annual test is a legal
-requirement
+Inflatable play equipment is designed to provide fun, but safety is paramount. Regular testing and maintenance are crucial to ensure the safety and reliability of your inflatables. In compliance with UK safety standards, operators must ensure their inflatables are in safe, working condition, both to protect users and to meet legal obligations. PiPA (Play Inspectors Provisional Accreditation) testing is one such method that guarantees inflatables are thoroughly checked for structural integrity and overall safety.
 
-In 2006 the European Parliament passed EN 14960 which has been accepted by the UK and comes
-under the British Standard Institute (BSI) and has the number BSEN 14960:2006. This document
-covers the manufacture, operation and testing of inflatable play equipment that is ‘jumped’ or ‘slid’ on.
-This British Standard is NOT law but is the only document appertaining to the manufacture, operation
-and testing of inflatable play equipment available to the industry. IPMA/AIMODS members and most
-UK manufacturers now build to this Standard.
+PiPA Testing: Ensuring Compliance with Safety Standards
 
-Operators who hire or allow members of the public to use equipment are required to ensure that their
-equipment is ‘safe for purpose’ and this is covered by the Health & Safety At Work etc Act 1974
-(HASAWA) and the Provision of Work Equipment Regulations 1998 (PUWER). Both of these regulations
-ARE law.
+PiPA testing plays a critical role in keeping inflatables safe and compliant with UK safety regulations. While not legally required, it follows best practices outlined in BS EN 14960:2006, a British Standard that governs the manufacture, operation, and testing of inflatable equipment. PiPA testing checks essential elements such as:
 
-HASAWA, Section 3 (2) states “It shall be the duty of every self-employed person to conduct his
-undertaking in such a way as to ensure, so far as is reasonably practicable, that he and other persons
-(not being his employees) who may be affected thereby are not thereby exposed to risks to their
-health or safety.”
+Structural Integrity: Ensuring that the inflatable’s frame and structure are secure and free from defects.
 
-It is this requirement that all companies have to comply with and the section that prosecutions are
-usually made.
+Seam and Fabric Condition: Inspecting the seams and fabric for wear, rips, and potential failure points.
 
-To assist bouncy castle companies complying with this, HSE produced ETIS 7.
-ETIS 7 states:
+Air Pressure: Verifying that the inflatable maintains appropriate air pressure to provide a firm and safe surface for users.
 
-“Inspection, maintenance and modification
-The Provision of Work Equipment Regulations 1998 (PUWER) require inflatable devices to be inspected
-at suitable intervals to ensure that safe conditions are maintained, and that any deterioration in the
-device is detected and remedial action taken in good time. (See following paragraphs on annual
-inspections and daily checks.)
+Blower and Electrical Systems: Ensuring blowers are functioning correctly and that all electrical wiring and connections are safe.
 
-Annual inspection
-Each inflatable should be thoroughly inspected at least once in every 12 months. This procedure needs
-to be carried out by a competent person.
-The Annual inspection needs to include checks of the following:
-· previous inspection reports and certificates where appropriate;
-· provision of a blower unit as specified by the manufacturer, or one that at least provides sufficient
-pressure to allow the inflatable to be used safely, suitably guarded at the air inlet and outlet;
-· condition of blower impeller and fan casing where practicable to inspect;
-· condition of accessible blower electrical wiring;
-· condition of all electrical installations;
-· anchorage system for wear, rips or chafing;
+By carrying out these tests annually, PiPA testing offers peace of mind to both event organizers and customers, confirming that inflatables meet the highest safety standards.
 
-INFORMATION SHEET 33
-2
-•type and number etc of ground anchors or ballast for conformity with design specification;
-· structure for wear or rips in the fabric;
-· walls and towers (when fitted) are firm and upright;
-· pressure is sufficient in the bouncing area and at the step/front apron to give a reliable and firm
-footing;
-· internal ties for wear and tear, particularly at loose or exposed ends;
-· bed seams, wall-to-bed seams and wall-to-tower connections;
-· identification of the device; and
-· if used on a fixed site, the location.
-Inspection of some of these features may need to be done inside the device. The above list is not
-exhaustive and the manufacturer may specify additional items. Annual inspection needs to include any
-part of the inflatable and its ancillary equipment that may affect the safe operation of the device.
+Repair Services: Maintaining Your Inflatables
 
-Daily checks
-Checks should be carried out before the first use on any day using advice provided by the
-manufacturer in the operations manual. These should include checking that:
-· the site remains suitable, with crowd control measures in place if appropriate;
-· anchorages are intact, protected where necessary, and ropes not worn or chafed;
-· anchor system secures the inflatable device to the ground;
-· there are no significant holes or rips in the fabric or seams;
-· the correct blower specified for the device is being used and the air pressure is sufficient to give a
-reliable and firm footing;
-· there are no exposed electrical contacts, there is no wear on electric cables, and plugs, sockets and
-switches are not damaged;
-· if an internal combustion engine is used, that the fuel cap is placed firmly on the fuel tank and any
-reserve fuel tank is suitable and remains in a safe position;
-· bolts and screws of the blower are properly secured and that robust guards are secured over the air
-inlet and outlet;
-· the blower/inflation tube connection is in good condition and is firmly fixed to the blower; and
-· the blower is positioned correctly, adequately protected or guarded and is not causing a tripping
-hazard.
-The public should not use the inflatable until any defects identified in the daily check have been
-rectified.”
-BSEN 14960:2006 states :
+In addition to regular testing, inflatables require ongoing maintenance to remain in top condition. Common inflatable repairs include:
 
-“7.1.1 Routine inspection
-The controller shall carry out, or appoint a person to carry out, routine inspection.
-Routine inspection shall be carried out before use each time the equipment is to be made available
-for use. The check shall include that:
+Seam Repairs: Fixing tears or damages in the seams to ensure the structure remains secure.
 
-- site is suitable;
-- all anchorages are secure and in place;
-- ancillary equipment is in position (e.g. impact-absorbing mats);
-- there are no significant holes or rips in the fabric or seams;
-- correct blower is being used;
-- internal air pressure is sufficient to give a firm and reliable footing;
-- there are no exposed electrical parts and no wear on cables;
-- plugs, sockets, switches etc. are not damaged;
-- connection tube and blower are firmly attached to each other;
-- blower is safely positioned and its mesh guards are intact.
-  The equipment shall not be used by the public until any defects identified in the routine inspection have
-  been rectified
-  3
+Patchwork: Patching rips or holes in the fabric to maintain the integrity and safety of the inflatable.
 
-  7.1.2 Annual inspection
-  The controller shall ensure that an annual inspection is carried out by an inspection body which shall
-  include any part of the inflatable and its ancillaries, which may affect safe operation of the equipment.
-  It shall include checks of:
+Inflatable Refurbishments: Restoring older units to their original condition, improving both safety and appearance.
 
-- previous inspection reports and certificates where appropriate;
-- identification of the inflatable and blower (e.g. serial numbers);
-- anchorage system for wear, rips or chafing;
-- type and number of ground anchors or ballast for conformity with the design specification;
-- inflatable structure for wears or rips in the fabric;
-- walls and towers (when fitted) for firmness and uprightness;
-- internal air pressure to be sufficient to give a reliable and firm footing;
-  -internal ties for wear and tear, particularly at loose or exposed ends;
-  -bed seams, wall-to-bed seams and wall-to-tower connections;
-  -mesh guards at the inlet and outlet of the blower;
-  -condition of the impellor and fan casing;
-  -condition of electrical wiring and/or installations;
-  -presence of the fuel cap (petrol - engined blowers)
-  Inspection of some of these items may need to be done inside the inflatable. The above list is not
-  exhaustive”
+Regular repairs are essential for keeping inflatables in safe, working order, which helps prevent accidents and ensures users have a fun and safe experience.
 
-It should be understood that ETIS 7 was revised at the time when the draft of EN 14960 was being
-discussed and takes many of its points from EN 14960 (now BS EN 14960:2006)
-The bottom line is that whilst PIPA, RPII and BSEN 14960:2006 are not legal requirements HASAWA
-and PUWER ARE law and therefore so is annual testing of inflatables.
-HSE have also stated that operators who use either the ADIPS or PIPA schemes for their annual test
-will be deemed to have followed ‘best practice’. It follows that operators who use ADIPS or PIPS for
-their testing are covered in the eyes of the law. The confusion lies in the fact that HSE state that other
-methods can be used to comply with HASAWA and that tests should be carried out by a ‘competent
-tester’. Operators need to understand that if they choose to have their units tested outside of ADIPS or
-PIPA it will be their responsibility to prove the competence of their tester should the need arise. We
-would suggest that any operator deciding to test outside of ADIPS or PIPA should at least use an RPII
-registered inspector. It would not be enough to say that a tester could be considered ‘competent’
-because he/she has ‘x’ amount of years experience. It is almost certain that HSE or others would
-demand an independent evaluation to determine ‘competence’.
-In a successful prosecution of an inspector in May 2009 HSE used BSEN 14960:2006 as part of that
-prosecution under the HASAWA. It is possible that this could set a legal precedent in any future cases.
-In effect making BSEN 14960:2006 law.
-Operators should only purchase new equipment that conforms to BSEN 14960:2006 and ensure that
-the documentation issued with the unit clearly states this.
-Disclaimer: This document is for general guidance and research purposes only, and does not purport to give
-professional or legal advice.
-Sources:
-Inflated News Play & Attractions / TIPE / Health & Safety Executive / BSEN 14960:2006 / ETIS 7 / HASAWA
-May 2009
+Booking Process: Simple Steps to Schedule Testing or Repairs
+
+Booking PiPA testing or inflatable repairs is easy. Follow these simple steps:
+
+Contact Us: Reach out to us via phone, email, or our online booking system.
+
+Provide Details: Share the details of the inflatable(s) needing testing or repairs, including photos for better understanding of the issue.
+
+Schedule a Service: Choose a convenient time for us to visit or for you to bring the inflatable to us. We will then conduct the necessary checks or repairs.
+
+Our goal is to make the process as smooth and efficient as possible, ensuring your inflatables are safe and ready for use.
+
+HSE Best Practice and Legal Requirements
+
+The Health and Safety Executive (HSE) emphasizes the importance of compliance with the Health and Safety at Work etc Act 1974 (HASAWA) and the Provision and Use of Work Equipment Regulations 1998 (PUWER). These regulations require inflatable operators to ensure their equipment is safe for use by the public.
+
+While BS EN 14960:2006 and PiPA testing are not mandatory, following these standards demonstrates compliance with best practices and helps operators avoid legal liabilities. HSE has clarified that using an accredited scheme such as PiPA or ADIPS for annual testing will provide operators with the necessary compliance coverage. Operators who do not use accredited testing must prove the competence of their testing personnel should the need arise.
+
+Why PiPA Testing Matters
+
+Legal Protection: PiPA testing ensures compliance with HASAWA and PUWER regulations, which are enforceable by law.
+
+Safety Assurance: Regular testing ensures your inflatables are safe for public use, reducing the risk of accidents.
+
+Peace of Mind: Using a recognized testing service like PiPA gives both operators and customers confidence in the safety of the equipment.
+
+Call to Action
+
+Ensure the safety of your inflatable equipment and the satisfaction of your customers by booking PiPA testing and repair services today. Our team is dedicated to providing quick, reliable service that meets all safety standards, so you can focus on providing a fun and secure experience for your clients.
+
+Contact us now to schedule your testing or repair service and ensure your inflatables are ready for the next event. Your safety and peace of mind are our top priority!
