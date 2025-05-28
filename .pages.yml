@@ -89,3 +89,12 @@ content:
       - { name: body, label: Body, type: code, options: { language: markdown } }
       - { name: redirect_from, type: string, list: true }
       - { name: featured, label: Featured, type: boolean, default: true }
+
+  - name: snippets
+    label: Snippets
+    path: snippets
+    type: collection
+    subfolders: false
+    filename: '{primary}.md'
+    fields:
+      - { name: body, label: Body, type: code, options: { language: markdown } }
