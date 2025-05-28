@@ -7,8 +7,5 @@ name: Right Column Text
 
 ![PIPA Logo](/images/pipa-logo.png)
 
-![AIMods Logo](/images/amods-label.jpg)
-
 ![Clive Ellis's RPII Badge](/images/rpii-badge.jpg)
 
-![RPII Logo](/images/rpii-logo.jpg)
