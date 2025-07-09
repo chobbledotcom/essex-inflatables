@@ -4,8 +4,8 @@
 
 :root {
   /* Main Colors */
-  --color-bg: #000000;
-  --color-bg-secondary: #111111;
+  --color-bg: #fff8dc;
+  --color-bg-secondary: #ffffff;
   --color-bg-main: #ffffff;
 
   /* Gold Variations */
@@ -14,9 +14,9 @@
   --color-gold-dark: #aa8c2c;
 
   /* UI Colors */
-  --color-text: #ffffff;
+  --color-text: #000000;
   --color-text-secondary: #cccccc;
-  --color-link: #ffffff;
+  --color-link: #8b0000;
   --color-link-hover: var(--color-gold);
   --color-secondary: var(--color-gold-light);
   --color-secondary-accent: rgba(241, 194, 50, 0.3);
@@ -26,10 +26,10 @@
   --color-scrollbar: var(--color-gold-dark);
 
   /* Borders and Structure */
-  --border: 2px solid var(--color-gold-dark);
+  --border: 2px solid #daa520;
   --border-radius: 5px;
   --border-radius-small: 3px;
-  --box-shadow: 0px 2px 5px;
+  --box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
 
   /* Interactivity */
   --hover-brightness: 1.2;
@@ -42,8 +42,8 @@
   --width-card-wide: 800px;
 
   /* Typography */
-  --font-family-heading: "Norican", Georgia, serif;
-  --font-family-body: "Open Sans", sans-serif;
+  --font-family-heading: "Angkor", ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa, Manjari, "Arial Rounded MT", "Arial Rounded MT Bold", Calibri, source-sans-pro, sans-serif;
+  --font-family-body: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif;
   --line-height: 1.5;
   --justify-important: center;
   --justify-normal: left;
