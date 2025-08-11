@@ -1,81 +1,50 @@
-# Essex Inflatables Website Content Update - Q&A
+- **Company Description**: Brief overview of what the company does - is it more than testing and repairing bouncy castles?
 
-## Company Information
+- **Contact Information**:
+  - Phone numbers (01268 569302 / 07976 979727) current?
+  - Email (enquiries@essexinflatables.co.uk) current?
+  - Current business address?
+  - Preferred contact methods?
 
-1. **Company Name**: Official company name/trading name?
+- **Primary Services**: Current offerings?
+  - Inflatable equipment manufacture
+  - Repair services
+  - PIPA inspections
+  - Annual inspections (non-PIPA)
+  - Other services?
 
-2. **Company Description**: Update company description (currently: "making and repairing bouncy castles since 1994, inspecting since 1997")
+- **PIPA Certification**: Any updates?
 
-3. **Logo**: High-resolution logo files available?
+- **Service Areas**: Geographical coverage?
 
-4. **Contact Information**:
-   - Phone numbers (01268 569302 / 07976 979727) current?
-   - Email (enquiries@essexinflatables.co.uk) current?
-   - Current business address?
-   - Other contact methods?
+- **Happy Hopperz**: Current price (£24.99)? Product description?
 
-## Services
+- **Fan Equipment**: Electric/petrol/LPG fans - descriptions, pricing, specs?
 
-5. **Primary Services**: Current offerings?
+- **Bouncy Castle Stakes**: PIPA standard stakes - specs, pricing?
 
-   - Inflatable equipment manufacture
-   - Repair services
-   - PIPA inspections
-   - Annual inspections (non-PIPA)
-   - Other services?
+- **Second-hand Equipment**: How often is any available?
 
-6. **PIPA Certification**: Still current? Any updates?
+- **New Equipment**: Do you manufacture/sell anything new? Categories, prices, lead times?
 
-7. **Standards**: Any compliance beyond BS EN 14960?
+- **Repair Services**: Pricing structure (hourly/fixed/quote-based)?
 
-8. **Service Areas**: Geographical coverage?
+- **Inspection Services**: Current charges for PIPA/annual/emergency inspections?
 
-## Products & Pricing
+- **Travel Charges**: Travel/callout charges?
 
-9. **Happy Hopperz**: Current price (£24.99)? Product description?
+- **Team Information**: Do you want to include team bios?
 
-10. **Fan Equipment**: Electric/petrol/LPG fans - descriptions, pricing, specs?
+- **Recent News**: Any recent achievements, certifications, launches, testimonials?
 
-11. **Bouncy Castle Stakes**: PIPA standard stakes - specs, pricing?
+- **Customer Testimonials**: Recent reviews to feature?
 
-12. **Second-hand Equipment**: How often available? Update system needed?
+- **Case Studies**: Interesting repair jobs or custom projects?
 
-13. **New Equipment**: Do you manufacture/sell new? Categories, prices, lead times?
+- **FAQ**: Most common customer questions?
 
-## Equipment Categories
+- **Insurance**: Coverage details (public liability, professional indemnity)?
 
-14. **PIPA Testing**: Current categories (bouncy castles, assault courses, slides, disco domes, flat play beds, enclosed units, multi play)?
+- **Warranties**: What warranties are offered?
 
-15. **Annual Test**: Current categories (pole joust, pool inflatables, barfly, gladiators, table football)?
-
-## Pricing
-
-16. **Repair Services**: Pricing structure (hourly/fixed/quote-based)?
-
-17. **Inspection Services**: Current charges for PIPA/annual/emergency inspections?
-
-18. **Travel Charges**: Travel/callout charges?
-
-## Content
-
-19. **Team Information**: Do you want to include team bios?
-
-20. **Recent News**: Any recent achievements, certifications, launches, testimonials?
-
-21. **Customer Testimonials**: Recent reviews to feature?
-
-22. **Case Studies**: Interesting repair jobs or custom projects?
-
-23. **FAQ**: Most common customer questions?
-
-## Technical
-
-24. **Insurance**: Coverage details (public liability, professional indemnity)?
-
-25. **Warranties**: What warranties offered?
-
-26. **Health & Safety**: Relevant certifications/protocols?
-
-## Digital
-
-27. **Social Media**: Facebook page current? Other platforms?
+- **Health & Safety**: Relevant certifications/protocols?
