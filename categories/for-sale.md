@@ -1,21 +1,37 @@
 ---
-title: For Sale
+title: Parts & Equipment
+meta_title: Parts and Equipment for Sale - Essex Inflatables
+meta_description: Spare parts, equipment, and accessories for inflatable operators. Stakes, fans, blowers, repair materials, and second-hand equipment when available.
+header_text: Parts & Equipment
 redirect_from:
   - /Equipement For Sale.html
 featured: true
 ---
-## Equipment For Sale!
 
-Happy Hopperz for sale!!
+## Parts and Equipment for Inflatable Operators
 
-Only
+We supply essential parts and equipment for operators of inflatable play equipment. Our stock includes both new and reconditioned items, with availability varying based on current demand and supply.
 
-£24.99 Each
+### Currently Available
 
-We also Supply:
+We maintain stocks of the following items, though availability varies:
 
-- ELECTRIC FANS
-- PETROL FANS
-- LPG FANS
+- Stakes for securing inflatables (PIPA standard)
+- Fans and blowers (new and reconditioned)
+- Repair materials and kits
+- Replacement parts and accessories
+- Second-hand equipment (when available)
 
-Bouncy Castle Stakes (Pipa standard)
+### Pricing and Availability
+
+Prices fluctuate based on material costs and market conditions. Stakes pricing depends on current steel costs. Fan and blower prices vary by specification and condition. We provide current quotes on request.
+
+Second-hand equipment becomes available periodically through our industry connections. Quality used inflatables, tested and certified equipment, and bulk lots occasionally become available.
+
+### How to Order
+
+Contact us for current stock levels and pricing:
+- Phone: 01268 569302
+- Email: enquiries@essexinflatables.co.uk
+
+We prefer to provide written quotes via email to ensure accurate pricing and clear communication about specifications and availability.
