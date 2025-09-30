@@ -57,7 +57,7 @@ jobs:
             source/ \
             combined/src/
 
-      - name: Update config.json with secrets
+      - name: Update site.json with secrets
         run: |
           sed -i \
             's/"formspark_id": null/"formspark_id": "${{ secrets.FORMSPARK_ID }}"/g' \
@@ -126,11 +126,11 @@ jobs:
           name: built-site
           path: _site
 
-      - name: Deploy to Neocities
+      - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v3
         with:
           api_key: ${{ secrets.NEOCITIES_API_KEY }}
           cleanup: true
           neocities_supporter: true
           preview_before_deploy: false
-          dist_dir: ./_site
+          dist_dir: _site
