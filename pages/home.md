@@ -1,16 +1,16 @@
 ---
-header_image: countryside.jpg
+header_image: /images/bouncy-slide.jpg
 header_text: Essex Inflatables
-meta_description: Professional testing and repair facility for inflatable play equipment. PIPA inspections, comprehensive repairs, and operator support services across Essex and Southeast England.
+meta_description: Professional testing and repair facility for inflatable play
+  equipment. PIPA inspections, comprehensive repairs, and operator support
+  services across Essex and Southeast England.
 meta_title: Essex Inflatables - Testing & Repair Facility for Inflatable Equipment
-
-layout: home.html
-permalink: /
 eleventyNavigation:
   key: Home
   order: 0
+layout: home.html
+permalink: /
 ---
-
 ![Essex Inflatables](/images/essex-banner.jpg)
 
 ## Professional Testing and Repair Facility for Inflatable Play Equipment
