@@ -1,11 +1,13 @@
 ---
 title: PIPA Testing
-meta_title: PIPA Testing and Safety Inspections - Essex Inflatables
-meta_description: Certified PIPA inspection body since 2004. Annual safety testing for inflatable play equipment to HSE standards. Covering Essex and Southeast England.
+header_image: /images/clipboard.jpg
 header_text: Safety Inspections
+meta_description: Certified PIPA inspection body since 2004. Annual safety
+  testing for inflatable play equipment to HSE standards. Covering Essex and
+  Southeast England.
+meta_title: PIPA Testing and Safety Inspections - Essex Inflatables
 featured: true
 ---
-
 ## PIPA Testing and Safety Inspections
 
 As a certified PIPA Inspection Body since 2004, we provide comprehensive annual safety inspections for all types of inflatable play equipment. Our inspections ensure your equipment meets HSE health and safety requirements.
