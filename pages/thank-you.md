@@ -1,5 +1,5 @@
 ---
-header_image: countryside.jpg
+header_image: /images/bouncy-slide.jpg
 header_text: Thank You
 meta_title: Thank You
 permalink: /thank-you/

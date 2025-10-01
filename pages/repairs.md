@@ -1,5 +1,5 @@
 ---
-header_image: countryside.jpg
+header_image: /images/bouncy-slide.jpg
 header_text: Repair Services
 meta_title: Professional Inflatable Repair Services - Essex Inflatables
 meta_description: Expert repair services for all types of inflatable play equipment. In-house repairs using professional equipment and quality materials. Serving Essex and Southeast England since 1994.

@@ -1,5 +1,5 @@
 ---
-header_image: countryside.jpg
+header_image: /images/bouncy-slide.jpg
 header_text: Our Services
 meta_title: Professional Repair and Inspection Services - Essex Inflatables
 meta_description: Comprehensive repair and PIPA inspection services for inflatable play equipment. In-house repairs, annual safety inspections, and emergency support across Essex and Southeast England.

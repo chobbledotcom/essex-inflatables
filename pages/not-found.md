@@ -1,5 +1,5 @@
 ---
-header_image: countryside.jpg
+header_image: /images/bouncy-slide.jpg
 header_text: Not Found
 meta_description:
 meta_title: Not Found

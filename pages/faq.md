@@ -1,5 +1,5 @@
 ---
-header_image: countryside.jpg
+header_image: /images/bouncy-slide.jpg
 header_text: Frequently Asked Questions
 meta_title: FAQ - Essex Inflatables
 meta_description: Common questions about inflatable repairs, PIPA testing, pricing, and services. Find answers about inspection frequency, repair costs, and service coverage areas.

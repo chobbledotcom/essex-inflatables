@@ -1,5 +1,5 @@
 ---
-header_image: countryside.jpg
+header_image: /images/bouncy-slide.jpg
 header_text: HSE Best Practice
 meta_title: HSE Best Practice and Safety Standards - Essex Inflatables
 meta_description: Understanding HSE requirements, PIPA testing standards, and safety compliance for inflatable play equipment. BS EN 14960 standards and legal obligations explained.

@@ -2,6 +2,7 @@
 title: Inflatable Stakes
 meta_title: Stakes for Inflatables - Essex Inflatables
 meta_description: Quality stakes for securing inflatable play equipment. New and used options available. Pricing varies with current steel costs. Contact for quotes.
+header_image: /images/bouncy-slide.jpg
 header_text: Stakes and Anchor Points
 categories:
   - for-sale.md

@@ -1,5 +1,5 @@
 ---
-header_image: countryside.jpg
+header_image: /images/bouncy-slide.jpg
 header_text: Contact Us
 meta_title: Contact Essex Inflatables - Testing & Repair Services
 meta_description: Contact Essex Inflatables for PIPA inspections, inflatable repairs, and equipment services. Phone, email, or visit our Benfleet office. Serving Essex and Southeast England.

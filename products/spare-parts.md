@@ -2,6 +2,7 @@
 title: Spare Parts & Equipment
 meta_title: Spare Parts and Equipment - Essex Inflatables
 meta_description: Replacement parts and equipment for inflatable operators. Fans, blowers, repair materials, and accessories. New and reconditioned options available.
+header_image: /images/bouncy-slide.jpg
 header_text: Parts & Equipment
 categories:
   - for-sale.md

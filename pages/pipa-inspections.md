@@ -1,5 +1,5 @@
 ---
-header_image: countryside.jpg
+header_image: /images/bouncy-slide.jpg
 header_text: PIPA Inspections
 meta_title: PIPA Safety Inspections - Essex Inflatables
 meta_description: Certified PIPA inspection services for inflatable play equipment. Annual safety inspections following HSE guidelines and BS EN 14960 standards across Essex and Southeast England.
