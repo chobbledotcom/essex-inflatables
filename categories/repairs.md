@@ -1,11 +1,13 @@
 ---
 title: Repair Services
-meta_title: Professional Inflatable Repair Services - Essex Inflatables
-meta_description: Expert repair services for all types of inflatable damage. In-house facility with professional equipment. Serving Essex and Southeast since 1994.
+header_image: /images/sewing.jpg
 header_text: Professional Repairs
+meta_description: Expert repair services for all types of inflatable damage.
+  In-house facility with professional equipment. Serving Essex and Southeast
+  since 1994.
+meta_title: Professional Inflatable Repair Services - Essex Inflatables
 featured: true
 ---
-
 ## Professional Inflatable Repair Services
 
 Our dedicated repair facility has been serving inflatable operators since 1994. We handle all types of repairs from minor patches to complete structural rebuilds, using professional-grade equipment and materials.
