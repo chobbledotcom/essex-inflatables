@@ -1,13 +1,15 @@
 ---
 title: Parts & Equipment
-meta_title: Parts and Equipment for Sale - Essex Inflatables
-meta_description: Spare parts, equipment, and accessories for inflatable operators. Stakes, fans, blowers, repair materials, and second-hand equipment when available.
+header_image: /images/nuts.jpg
 header_text: Parts & Equipment
+meta_description: Spare parts, equipment, and accessories for inflatable
+  operators. Stakes, fans, blowers, repair materials, and second-hand equipment
+  when available.
+meta_title: Parts and Equipment for Sale - Essex Inflatables
 redirect_from:
   - /Equipement For Sale.html
 featured: true
 ---
-
 ## Parts and Equipment for Inflatable Operators
 
 We supply essential parts and equipment for operators of inflatable play equipment. Our stock includes both new and reconditioned items, with availability varying based on current demand and supply.
