@@ -1,82 +1,76 @@
-const { execSync } = require("child_process");
-const fs = require("fs");
-const path = require("path");
-const { templateRepo, buildDir } = require("./consts");
+import { join } from "node:path";
+import { buildDir, templateRepo } from "./consts.js";
+import { bun, copyDir, find, fs, git, path, root } from "./utils.js";
 
-const root = path.resolve(__dirname, "..");
-const build = path.join(root, buildDir);
-const template = path.join(build, "template");
-const dev = path.join(build, "dev");
+const build = path(buildDir);
+const template = path(buildDir, "template");
+const dev = path(buildDir, "dev");
+const localTemplate = join(root, "..", "chobble-template");
 
-const templateExcludes = [".git", "node_modules", "test", "test-*"];
-
+const templateExcludes = [
+	".git",
+	".direnv",
+	"node_modules",
+	"*.md",
+	"test",
+	"test-*",
+	".image-cache",
+	"landing-pages",
+];
 const rootExcludes = [
 	".git",
+	".direnv",
 	"*.nix",
 	"README.md",
 	buildDir,
 	"scripts",
 	"node_modules",
 	"package*.json",
+	"bun.lock",
+	"old_site",
+	...(process.env.PLACEHOLDER_IMAGES === "1" ? ["images"] : []),
 ];
 
-function prep() {
+export const prep = () => {
 	console.log("Preparing build...");
-	fs.mkdirSync(build, { recursive: true });
+	fs.mkdir(build);
 
-	if (!fs.existsSync(template)) {
+	if (fs.exists(localTemplate)) {
+		console.log("Using local template from ../chobble-template...");
+		copyDir(localTemplate, template, {
+			delete: true,
+			exclude: templateExcludes,
+		});
+	} else if (!fs.exists(join(template, ".git"))) {
 		console.log("Cloning template...");
-		execSync(`git clone --depth 1 ${templateRepo} "${template}"`);
+		fs.rm(template);
+		git.clone(templateRepo, template);
 	} else {
 		console.log("Updating template...");
-		execSync("git reset --hard && git pull", { cwd: template });
+		git.reset(template, { hard: true });
+		git.pull(template);
 	}
 
-	fs.rmSync(path.join(template, "test"), { recursive: true, force: true });
-
-	execSync(`find "${dev}" -type f -name "*.md" -delete 2>/dev/null || true`);
-
-	const templateExcludeArgs = templateExcludes
-		.map((e) => `--exclude="${e}"`)
-		.join(" ");
-
-	execSync(`rsync -r --delete ${templateExcludeArgs} "${template}/" "${dev}/"`);
-
-	execSync(`rm ${dev}/src/*/*.md`);
-
-	const rootExcludeArgs = rootExcludes.map((e) => `--exclude="${e}"`).join(" ");
-
-	execSync(`rsync -r ${rootExcludeArgs} "${root}/" "${dev}/src/"`);
-	execSync(`rsync -r "${root}/.image-cache" "${dev}/.image-cache"`);
+	find.deleteByExt(dev, ".md");
+	copyDir(template, dev, { delete: true, exclude: templateExcludes });
+	copyDir(root, join(dev, "src"), { exclude: rootExcludes });
 
 	sync();
 
-	if (!fs.existsSync(path.join(dev, "node_modules"))) {
+	if (!fs.exists(join(dev, "node_modules"))) {
 		console.log("Installing dependencies...");
-		execSync("npm install", { cwd: dev });
+		bun.install(dev);
 	}
 
-	fs.rmSync(path.join(dev, "_site"), { recursive: true, force: true });
+	fs.rm(join(dev, "_site"));
 	console.log("Build ready.");
-}
+};
 
-function sync() {
-	const excludes = rootExcludes.map((e) => `--exclude="${e}"`).join(" ");
+export const sync = () => {
+	copyDir(root, join(dev, "src"), {
+		update: true,
+		exclude: rootExcludes,
+	});
+};
 
-	const cmd = [
-		"rsync -ru",
-		excludes,
-		'--include="*/"',
-		'--include="**/*.md"',
-		'--include="**/*.scss"',
-		'--exclude="*"',
-		`"${root}/"`,
-		`"${dev}/src/"`,
-	].join(" ");
-
-	execSync(cmd);
-}
-
-if (require.main === module) prep();
-
-module.exports = { prep, sync };
+if (import.meta.main) prep();

@@ -1,15 +1,21 @@
 {
-  "name": "uke-group-north",
-  "version": "1.0.0",
-  "description": "Uke Group North website",
-  "scripts": {
-    "serve": "node scripts/serve.js",
-    "build": "node scripts/build.js",
-    "prepare-dev": "node scripts/prepare-dev.js",
-    "sync-files": "node scripts/sync-files.js",
-    "watch": "node scripts/watch.js",
-    "update-pages": "node scripts/update-pages.js",
-    "clean": "rm -rf .build _site"
-  },
-  "devDependencies": {}
+	"name": "essex-inflatables",
+	"version": "1.0.0",
+	"type": "module",
+	"packageManager": "bun@1.2.13",
+	"description": "Essex Inflatables website",
+	"scripts": {
+		"serve": "bun scripts/serve.js",
+		"build": "bun scripts/build.js",
+		"prepare-dev": "bun scripts/prepare-dev.js",
+		"sync-files": "bun scripts/sync-files.js",
+		"watch": "bun scripts/watch.js",
+		"update-pages": "bun scripts/update-pages.js",
+		"update-scripts": "bun scripts/update-scripts.js",
+		"fetch-google-reviews": "bun scripts/fetch-google-reviews.js",
+		"screenshot": "bun scripts/screenshot.js",
+		"clean": "rm -rf .build _site",
+		"test": "bun scripts/test.js"
+	},
+	"devDependencies": {}
 }
