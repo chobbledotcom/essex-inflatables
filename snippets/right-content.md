@@ -5,7 +5,7 @@ name: Right Column Text
 - Mobile: [07976 979 727](tel:07976979727)
 - Facebook: [Follow us](https://www.facebook.com/p/Essex-Inflatables-100063786302750)
 
-![PIPA Logo](/images/pipa-logo.png)
+[![PIPA Logo](/images/pipa-logo.png)](https://www.pipa.org.uk/)
 
 ![Clive Ellis's RPII Badge](/images/rpii-badge.jpg)
 

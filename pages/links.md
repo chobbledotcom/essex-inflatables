@@ -21,3 +21,9 @@ Tipe (Inflated Play Enterprise)
 Click Banner For Their Website
 
 [![tipe](/images/tipe-logo.png)](http://www.tipe.co.uk/)
+
+PIPA (Performance Inflatable Play Accreditation)
+
+Click Logo For Their Website
+
+[![PIPA](/images/pipa-logo.png)](https://www.pipa.org.uk/)

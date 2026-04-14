@@ -10,30 +10,36 @@ layout: categories.html
 permalink: /services/
 ---
 
-## Comprehensive Testing and Repair Services for Inflatable Equipment
+## Our Services at a Glance
 
-Essex Inflatables provides essential maintenance and compliance services for operators of inflatable play equipment. Our in-house facility handles everything from minor repairs to complete structural rebuilds, alongside certified safety inspections that keep your equipment compliant and operational.
+Essex Inflatables provides the essential behind-the-scenes services that operators of inflatable play equipment rely on — from certified safety inspections to professional in-house repairs and the spare parts that keep your kit on the road.
 
-### Professional Repair Services
+Select a service below for full details, pricing, and how to book.
 
-Our repair facility handles all types of inflatable damage using professional-grade equipment and materials. We specialise in bed stitches, back panel stitches, and complete panel replacements. Our experienced technicians repair rips and tears of all sizes, replace damaged anchor points, and install new zips in stools. We also undertake complex internal repairs including bed panel replacements and diaphragm repairs inside the castle structure.
+### [Repair Services](/repairs/)
 
-All repairs are completed at our dedicated facility using air-cooled twin needle sewing machines and the highest quality PVC materials and thread. We work with various manufacturer designs, understanding that each requires different approaches and techniques. Our quote-based pricing system ensures transparency, with assessments based on the size of the inflatable, extent of damage, and complexity of the repair required.
+In-house repairs for inflatable play equipment at our Hullbridge workshop, including panel replacements, bed and back panel stitching, anchor points, internal repairs, blower and fan maintenance, and repair materials. Pre-examination service available for £30.
 
-### PIPA Testing and Safety Inspections
+### [PIPA Inspections](/pipa-inspections/)
 
-As a certified PIPA Inspection Body since 2004, we provide annual inspections required for health and safety compliance under HSE guidelines. Our inspections follow the EU standard BS EN 14960 and cover all continuous flow land inflatables. We also conduct safety inspections for inflatables that fall outside PIPA's remit, ensuring all your equipment meets safety standards.
+Annual PIPA safety inspections by a certified PIPA Inspection Body (since 2004), following BS EN 14960. Covers bouncy castles, assault courses, slides, disco domes and more, plus non-PIPA annual inspections for pole joust, pool inflatables, gladiators and similar.
 
-Equipment requiring PIPA tests includes bouncy castles, assault courses, slides, disco domes, flat play beds, enclosed units, and multi-play equipment. We also provide annual testing for non-PIPA equipment such as pole joust, pool inflatables, barfly, gladiators, and table football inflatables.
+### Parts & Equipment
 
-### Additional Services
+Stakes, fans, blowers, replacement parts, and second-hand equipment when available. Contact us for current stock and pricing.
 
-We offer emergency call-out services for urgent repair needs, though all repairs must be brought to our facility as we do not currently provide mobile on-site repairs. Our pre-examination service allows operators to have equipment assessed for a £25 service charge, providing a detailed inspection and quote before committing to repairs.
+### [HSE Best Practice](/hse-best-practice/)
 
-We also maintain and repair blowers and fans, offering both repair services and cleaning services to keep your equipment running efficiently. When available, we supply second-hand equipment and essential parts including spare fans, extra cones, repair kits, and stakes.
+Guidance on your responsibilities as an operator under HSE rules, BS EN 14960, and the annual testing process.
 
 ### Service Coverage Area
 
-We serve operators throughout Essex, London, Kent, Hertfordshire, Surrey, and the broader Southeast region. For PIPA inspections, we travel to council facilities, schools, and operator locations, with call-out charges varying based on location and timing requirements. Some venues require out-of-hours access, which we accommodate with adjusted pricing.
+We serve operators throughout Essex, London, Kent, Hertfordshire, Surrey, and the broader Southeast region. For PIPA inspections we travel to council facilities, schools, and operator locations. For repairs, equipment must be delivered to our Hullbridge facility.
+
+### Get in Touch
+
+Phone: [01268 569302](tel:01268569302) · Email: [enquiries@essexinflatables.co.uk](mailto:enquiries@essexinflatables.co.uk)
+
+Or use our [contact page](/contact/) to send an enquiry.
 
 ![](/images/dad3.jpg)

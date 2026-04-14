@@ -25,7 +25,7 @@ We became a PIPA Inspection Body in 2004 and provide HSE-endorsed inspection ser
 
 ### Professional Repairs
 
-Our in-house repair facility handles all types of inflatable damage and maintenance requirements. From bed stitches and panel replacements to complete structural repairs, we use professional-grade equipment including air-cooled twin needle sewing machines and the highest quality PVC materials and thread. All repairs are completed at our dedicated facility in the Holbridge area, ensuring consistent quality and proper workspace for even the most complex repairs.
+Our in-house repair facility handles all types of inflatable damage and maintenance requirements. From bed stitches and panel replacements to complete structural repairs, we use professional-grade equipment including air-cooled twin needle sewing machines and the highest quality PVC materials and thread. All repairs are completed at our dedicated facility in the Hullbridge area, ensuring consistent quality and proper workspace for even the most complex repairs.
 
 ### Operator Support Services
 

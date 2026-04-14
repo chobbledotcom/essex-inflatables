@@ -20,7 +20,6 @@ We maintain stocks of the following items, though availability varies:
 
 - Stakes for securing inflatables (PIPA standard)
 - Fans and blowers (new and reconditioned)
-- Repair materials and kits
 - Replacement parts and accessories
 - Second-hand equipment (when available)
 
