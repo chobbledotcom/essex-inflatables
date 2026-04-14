@@ -5,10 +5,14 @@ meta_title: News
 eleventyNavigation:
   key: News
   order: 3
-layout: news-archive.html
+layout: design-system-base.html
 permalink: /news/
+blocks:
+  - type: hero
+    title: News
+  - type: markdown
+    content: |
+      ## Congue Ipsum
+
+      Integer feugiat iaculis augue, in hendrerit sapien dapibus et. Mauris vitae est auctor, pellentesque nisl.
 ---
-
-## Congue Ipsum
-
-Integer feugiat iaculis augue, in hendrerit sapien dapibus et. Mauris vitae est auctor, pellentesque nisl.
