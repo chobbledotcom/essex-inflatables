@@ -5,25 +5,30 @@ meta_title: Links
 eleventyNavigation:
   key: Links
   order: 6
+layout: design-system-base.md
 permalink: /links/
 redirect_from:
   - /Links.html
+blocks:
+  - type: hero
+    title: Links
+  - type: markdown
+    content: |
+      Ellis Leisure (Bouncy Castle Hire Essex)
+
+      Click Banner For Their Website
+
+      [![banner](/images/ellis-leisure-banner.jpg)](http://www.ellisleisure.co.uk/)
+
+      Tipe (Inflated Play Enterprise)
+
+      Click Banner For Their Website
+
+      [![tipe](/images/tipe-logo.png)](http://www.tipe.co.uk/)
+
+      PIPA (Performance Inflatable Play Accreditation)
+
+      Click Logo For Their Website
+
+      [![PIPA](/images/pipa-logo.png)](https://www.pipa.org.uk/)
 ---
-
-Ellis Leisure (Bouncy Castle Hire Essex)
-
-Click Banner For Their Website
-
-[![banner](/images/ellis-leisure-banner.jpg)](http://www.ellisleisure.co.uk/)
-
-Tipe (Inflated Play Enterprise)
-
-Click Banner For Their Website
-
-[![tipe](/images/tipe-logo.png)](http://www.tipe.co.uk/)
-
-PIPA (Performance Inflatable Play Accreditation)
-
-Click Logo For Their Website
-
-[![PIPA](/images/pipa-logo.png)](https://www.pipa.org.uk/)
