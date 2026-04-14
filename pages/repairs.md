@@ -7,7 +7,7 @@ subtitle: Professional In-House Repair Facility
 eleventyNavigation:
   key: Repairs
   order: 3
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /repairs/
 blocks:
   - type: hero

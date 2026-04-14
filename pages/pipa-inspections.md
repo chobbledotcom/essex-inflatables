@@ -7,7 +7,7 @@ subtitle: Annual Safety Inspections for Inflatable Play Equipment
 eleventyNavigation:
   key: PIPA Inspections
   order: 2
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /pipa-inspections/
 blocks:
   - type: hero

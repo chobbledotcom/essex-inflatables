@@ -7,7 +7,7 @@ meta_description: Expert repair services for all types of inflatable damage.
   since 1994.
 meta_title: Professional Inflatable Repair Services - Essex Inflatables
 featured: true
-layout: design-system-base.md
+layout: design-system-base.html
 blocks:
   - type: hero
     title: Professional Repairs

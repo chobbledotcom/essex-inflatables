@@ -8,7 +8,7 @@ meta_title: Contact Essex Inflatables - Testing & Repair Services
 eleventyNavigation:
   key: Contact
   order: 6
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /contact/
 redirect_from:
   - /Contact.html

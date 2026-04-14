@@ -9,7 +9,7 @@ subtitle: Common Questions About Our Services
 eleventyNavigation:
   key: FAQ
   order: 5
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /faq/
 blocks:
   - type: hero

@@ -6,7 +6,7 @@ meta_description: Understanding HSE requirements, PIPA testing standards, and sa
 eleventyNavigation:
   key: HSE Best Practice
   order: 4
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /hse-best-practice/
 redirect_from:
   - /HSE Best Practice.html

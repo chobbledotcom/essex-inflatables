@@ -5,7 +5,7 @@ meta_title: Links
 eleventyNavigation:
   key: Links
   order: 6
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /links/
 redirect_from:
   - /Links.html

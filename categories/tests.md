@@ -7,7 +7,7 @@ meta_description: Certified PIPA inspection body since 2004. Annual safety
   Southeast England.
 meta_title: PIPA Testing and Safety Inspections - Essex Inflatables
 featured: true
-layout: design-system-base.md
+layout: design-system-base.html
 blocks:
   - type: hero
     title: Safety Inspections

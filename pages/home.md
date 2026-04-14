@@ -8,7 +8,7 @@ meta_title: Essex Inflatables - Testing & Repair Facility for Inflatable Equipme
 eleventyNavigation:
   key: Home
   order: 0
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /
 blocks:
   - type: hero

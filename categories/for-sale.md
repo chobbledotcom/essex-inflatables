@@ -9,7 +9,7 @@ meta_title: Parts and Equipment for Sale - Essex Inflatables
 redirect_from:
   - /Equipement For Sale.html
 featured: true
-layout: design-system-base.md
+layout: design-system-base.html
 blocks:
   - type: hero
     title: Parts & Equipment

@@ -6,7 +6,7 @@ header_image: /images/bouncy-slide.jpg
 header_text: Stakes and Anchor Points
 categories:
   - for-sale.md
-layout: design-system-base.md
+layout: design-system-base.html
 blocks:
   - type: hero
     title: Stakes and Anchor Points

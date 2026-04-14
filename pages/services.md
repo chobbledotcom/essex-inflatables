@@ -6,7 +6,7 @@ meta_description: Comprehensive repair and PIPA inspection services for inflatab
 eleventyNavigation:
   key: Services
   order: 1
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /services/
 blocks:
   - type: hero

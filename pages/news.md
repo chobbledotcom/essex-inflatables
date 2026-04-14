@@ -5,7 +5,7 @@ meta_title: News
 eleventyNavigation:
   key: News
   order: 3
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /news/
 blocks:
   - type: hero

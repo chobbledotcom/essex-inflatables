@@ -3,7 +3,7 @@ header_image: /images/bouncy-slide.jpg
 header_text: Not Found
 meta_description:
 meta_title: Not Found
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /not_found.html
 blocks:
   - type: hero

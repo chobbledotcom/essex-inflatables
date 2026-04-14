@@ -2,7 +2,7 @@
 header_image: /images/bouncy-slide.jpg
 header_text: Thank You
 meta_title: Thank You
-layout: design-system-base.md
+layout: design-system-base.html
 permalink: /thank-you/
 blocks:
   - type: hero
