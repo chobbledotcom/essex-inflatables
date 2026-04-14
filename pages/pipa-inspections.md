@@ -7,7 +7,7 @@ subtitle: Annual Safety Inspections for Inflatable Play Equipment
 eleventyNavigation:
   key: PIPA Inspections
   order: 2
-layout: base.html
+layout: contact.html
 permalink: /pipa-inspections/
 ---
 
@@ -54,8 +54,17 @@ Our inspection team consists of certified PIPA inspectors with extensive experie
 
 All our inspectors are certified under the PIPA scheme and regularly update their training to stay current with safety standards and regulations. We maintain comprehensive insurance coverage and follow all safety protocols during inspections. Our team also holds PAT test certification, allowing us to test electrical equipment such as blowers during inspections.
 
+### How It Works
+
+1. **Get in touch** — phone or email with the number and types of inflatables, your location, and any access requirements.
+2. **Written quote** — we send a written quote by email so pricing and scope are clear up front.
+3. **Inspection** — our certified PIPA inspector visits at a mutually convenient time (including out-of-hours where needed).
+4. **Certificate & report** — passing equipment receives a PIPA certificate and a full inspection report. Any issues identified can be quoted for repair at our facility.
+
 ### Booking Your PIPA Inspection
 
 To book your annual PIPA inspection, contact us by phone or email with details of your equipment and preferred inspection dates. We recommend booking well in advance of your certificate expiry to ensure availability and avoid any gaps in certification.
 
-For quotes and scheduling, please provide information about the number and types of inflatables requiring inspection, your location, and any specific access requirements. We provide written quotes via email for all inspection services, ensuring clear pricing and service expectations.
+### Book Your Inspection
+
+Call **[01268 569302](tel:01268569302)** or email **[enquiries@essexinflatables.co.uk](mailto:enquiries@essexinflatables.co.uk)** — or use the form below to send us an enquiry.

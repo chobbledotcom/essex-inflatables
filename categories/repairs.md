@@ -22,10 +22,11 @@ We specialise in:
 - Internal structural repairs
 - Zip replacements
 - Diaphragm repairs
+- Blower and fan maintenance
 
 ### Our Facility
 
-All repairs are completed at our professional workshop in the Holbridge area. Our facility features:
+All repairs are completed at our professional workshop in the Hullbridge area. Our facility features:
 - Air-cooled twin needle sewing machines
 - Comprehensive stock of quality PVC materials
 - Professional-grade threads and adhesives
@@ -33,7 +34,7 @@ All repairs are completed at our professional workshop in the Holbridge area. Ou
 
 ### Getting a Quote
 
-Send us photographs of the damage along with details about your equipment. We provide detailed quotes based on the specific repair requirements. Our £25 pre-examination service includes thorough assessment and written quote.
+Send us photographs of the damage along with details about your equipment. We provide detailed quotes based on the specific repair requirements. Our £30 pre-examination service includes thorough assessment and written quote.
 
 Contact us:
 - Phone: 01268 569302

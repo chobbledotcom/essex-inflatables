@@ -10,23 +10,13 @@ categories:
 
 ## Spare Parts and Equipment for Operators
 
-We maintain stocks of essential spare parts and equipment to keep your inflatable business operational. From replacement fans to repair materials, we supply the components operators need for maintenance and emergency repairs.
+We maintain stocks of essential spare parts and equipment to keep your inflatable business operational. From replacement fans to accessories and second-hand units, we supply the components operators need to stay operational.
 
 ### Fans and Blowers
 
 We offer both new and reconditioned fans and blowers suitable for various inflatable sizes. Our selection includes different power ratings to match your specific equipment requirements. All electrical equipment can be PAT tested for safety compliance.
 
-We also provide fan repair services and cleaning services to extend the life of your existing equipment. Regular maintenance of blowers ensures consistent performance and reduces the risk of unexpected failures during operation.
-
-### Repair Materials
-
-For operators who handle minor repairs themselves, we stock professional-grade repair materials including:
-
-- PVC patches in various colours
-- Professional adhesives and solvents
-- Heavy-duty thread for stitching repairs
-- Repair kits for emergency field repairs
-- Replacement zips and fastenings
+For fan repair, cleaning, and servicing, please see our [Repair Services](/repairs/) page.
 
 ### Additional Equipment
 

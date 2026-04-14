@@ -53,6 +53,6 @@ For emergency repairs outside standard hours, additional call-out charges apply.
 
 ### Service Coverage
 
-We provide PIPA inspection services throughout Essex, London, Kent, Hertfordshire, Surrey, and the Southeast region. For repairs, equipment must be delivered to our Holbridge facility.
+We provide PIPA inspection services throughout Essex, London, Kent, Hertfordshire, Surrey, and the Southeast region. For repairs, equipment must be delivered to our Hullbridge facility.
 
 Use the form below to send us an enquiry and we will respond as soon as possible.

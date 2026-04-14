@@ -17,7 +17,7 @@ Essex Inflatables has been repairing inflatable play equipment since 1994, provi
 
 ### Our Repair Facility
 
-All repairs are completed at our dedicated workshop facility in the Holbridge area. This in-house approach ensures consistent quality control, proper working conditions, and access to all necessary equipment and materials. We do not currently offer mobile on-site repairs, as our facility provides the controlled environment necessary for professional-quality work.
+All repairs are completed at our dedicated workshop facility in the Hullbridge area. This in-house approach ensures consistent quality control, proper working conditions, and access to all necessary equipment and materials. We do not currently offer mobile on-site repairs, as our facility provides the controlled environment necessary for professional-quality work.
 
 Our workshop is equipped with air-cooled twin needle sewing machines specifically designed for heavy-duty PVC work. We maintain extensive stocks of high-quality PVC materials in various colours and weights, along with professional-grade thread that ensures strong, durable repairs. This investment in proper equipment and materials means we can handle repairs that others might consider beyond salvage.
 
@@ -41,7 +41,7 @@ Once repairs are approved, our technicians work systematically through each issu
 
 ### Pre-Examination Service
 
-For operators unsure about repair requirements or costs, we offer a pre-examination service for £25. This service includes a thorough inspection of your equipment, identification of all issues requiring attention, and a detailed written quote for necessary repairs. This allows operators to make informed decisions about repair versus replacement and budget accordingly for maintenance costs.
+For operators unsure about repair requirements or costs, we offer a pre-examination service for £30. This service includes a thorough inspection of your equipment, identification of all issues requiring attention, and a detailed written quote for necessary repairs. This allows operators to make informed decisions about repair versus replacement and budget accordingly for maintenance costs.
 
 During pre-examination, we can discuss repair options with operators, explaining what work is essential for safety compliance versus what might be cosmetic or optional. This consultation helps operators prioritise repairs according to their budget and operational needs.
 
@@ -53,12 +53,28 @@ Call-out charges vary depending on location, time of day, and urgency. Standard 
 
 ### Blower and Fan Maintenance
 
-Beyond inflatable repairs, we service and maintain the blowers and fans essential for operating inflatable equipment. Our services include complete strip-down and cleaning of fan units, replacement of worn components, and testing to ensure optimal performance. We also provide PAT testing for electrical safety compliance.
+Beyond inflatable repairs, we service and maintain the blowers and fans essential for operating inflatable equipment. Our services include complete strip-down and cleaning of fan units, replacement of worn components, fan repair, and testing to ensure optimal performance. We also provide PAT testing for electrical safety compliance.
 
 Regular blower maintenance extends equipment life and ensures consistent inflation pressure. We stock common replacement parts and can source components for most blower models. When repair is not economical, we can advise on suitable replacement options from our selection of new and reconditioned units.
+
+### Repair Materials
+
+For operators who handle minor repairs themselves, we stock professional-grade repair materials including:
+
+- PVC patches in various colours
+- Professional adhesives and solvents
+- Heavy-duty thread for stitching repairs
+- Repair kits for emergency field repairs
+- Replacement zips and fastenings
+
+Contact us for current stock and pricing on any of the above.
 
 ### Getting Your Equipment Repaired
 
 To arrange repairs, contact us with details of the damage and, if possible, photographs showing the affected areas. This helps us provide initial estimates and advise on whether the repair is economically viable. We can then arrange for you to deliver the equipment to our facility or discuss collection options for larger items.
 
 We aim to complete most repairs within a reasonable timeframe, though complex jobs or busy periods may extend turnaround times. We keep operators informed throughout the repair process and can provide updates on progress as needed.
+
+### Request a Repair Quote
+
+Call **[01268 569302](tel:01268569302)** or email **[enquiries@essexinflatables.co.uk](mailto:enquiries@essexinflatables.co.uk)** with photographs of the damage and details of your equipment, or use our [contact form](/contact/) to send an enquiry.
