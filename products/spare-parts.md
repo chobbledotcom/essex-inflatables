@@ -8,9 +8,6 @@ categories:
   - for-sale.md
 layout: design-system-base.html
 blocks:
-  - type: hero
-    title: Parts & Equipment
-    lead: Essential spare parts and equipment to keep your business operational
   - type: features
     intro: "## What We Stock"
     center: true

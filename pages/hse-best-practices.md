@@ -11,10 +11,6 @@ permalink: /hse-best-practice/
 redirect_from:
   - /HSE Best Practice.html
 blocks:
-  - type: hero
-    title: HSE Best Practice
-    lead: Understanding Safety Requirements for Inflatable Play Equipment
-    badge: Compliance Guide
   - type: split-image
     title: Legal Requirements
     content: |

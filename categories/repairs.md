@@ -9,8 +9,6 @@ meta_title: Professional Inflatable Repair Services - Essex Inflatables
 featured: true
 layout: design-system-base.html
 blocks:
-  - type: hero
-    title: Professional Repairs
   - type: markdown
     content: |
       ## Professional Inflatable Repair Services

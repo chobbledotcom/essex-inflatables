@@ -5,8 +5,6 @@ meta_title: Thank You
 layout: design-system-base.html
 permalink: /thank-you/
 blocks:
-  - type: hero
-    title: Thank You
   - type: markdown
     content: |
       ## Thank You

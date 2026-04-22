@@ -8,9 +8,6 @@ categories:
   - for-sale.md
 layout: design-system-base.html
 blocks:
-  - type: hero
-    title: Stakes and Anchor Points
-    lead: Essential safety equipment for securing inflatable play equipment
   - type: split-image
     title: Quality Stakes for Safety
     content: |

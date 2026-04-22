@@ -10,9 +10,6 @@ permalink: /links/
 redirect_from:
   - /Links.html
 blocks:
-  - type: hero
-    title: Links
-    lead: Useful resources and industry partners
   - type: image-cards
     image_aspect_ratio: "16/9"
     items:

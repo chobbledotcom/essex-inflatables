@@ -9,10 +9,6 @@ eleventyNavigation:
 layout: design-system-base.html
 permalink: /
 blocks:
-  - type: hero
-    title: Essex Inflatables
-    lead: Professional Testing and Repair Facility for Inflatable Play Equipment
-    badge: Since 1994
   - type: stats
     items:
       - value: "30+"

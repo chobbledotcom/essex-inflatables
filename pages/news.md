@@ -8,9 +8,6 @@ eleventyNavigation:
 layout: design-system-base.html
 permalink: /news/
 blocks:
-  - type: hero
-    title: News
-    lead: Updates and announcements from Essex Inflatables
   - type: items
     collection: news
     intro: "## Latest News"

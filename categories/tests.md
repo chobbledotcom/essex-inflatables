@@ -9,8 +9,6 @@ meta_title: PIPA Testing and Safety Inspections - Essex Inflatables
 featured: true
 layout: design-system-base.html
 blocks:
-  - type: hero
-    title: Safety Inspections
   - type: markdown
     content: |
       ## PIPA Testing and Safety Inspections

@@ -9,9 +9,6 @@ eleventyNavigation:
 layout: design-system-base.html
 permalink: /services/
 blocks:
-  - type: hero
-    title: Our Services
-    lead: Essential behind-the-scenes services for inflatable operators
   - type: section-header
     intro: |
       From certified safety inspections to professional in-house repairs and the spare parts that keep your kit on the road. Select a service below for full details, pricing, and how to book.

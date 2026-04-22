@@ -6,8 +6,6 @@ meta_title: Not Found
 layout: design-system-base.html
 permalink: /not_found.html
 blocks:
-  - type: hero
-    title: Not Found
   - type: markdown
     content: |
       ## Page Not Found

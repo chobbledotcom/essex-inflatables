@@ -10,10 +10,6 @@ eleventyNavigation:
 layout: design-system-base.html
 permalink: /pipa-inspections/
 blocks:
-  - type: hero
-    title: PIPA Inspections
-    lead: Annual Safety Inspections for Inflatable Play Equipment
-    badge: HSE Endorsed
   - type: split-image
     title: What is PIPA Testing?
     content: |

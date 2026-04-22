@@ -10,10 +10,6 @@ eleventyNavigation:
 layout: design-system-base.html
 permalink: /repairs/
 blocks:
-  - type: hero
-    title: Repair Services
-    lead: Professional In-House Repair Facility
-    badge: Since 1994
   - type: split-image
     title: Our Repair Facility
     content: |

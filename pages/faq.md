@@ -10,9 +10,6 @@ eleventyNavigation:
 layout: design-system-base.html
 permalink: /faq/
 blocks:
-  - type: hero
-    title: Frequently Asked Questions
-    lead: Common Questions About Our Services
   - type: section-header
     intro: |
       Find answers to the most common questions about our repair services, PIPA inspections, pricing, and coverage areas. Can't find what you're looking for? [Contact us directly](/contact/).

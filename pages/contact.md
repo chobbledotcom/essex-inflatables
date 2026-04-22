@@ -11,9 +11,6 @@ permalink: /contact/
 redirect_from:
   - /Contact.html
 blocks:
-  - type: hero
-    title: Contact Us
-    lead: Get in touch for quotes, bookings, and enquiries
   - type: icon-links
     intro: "## Reach Us Directly"
     items:

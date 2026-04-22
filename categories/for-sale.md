@@ -11,8 +11,6 @@ redirect_from:
 featured: true
 layout: design-system-base.html
 blocks:
-  - type: hero
-    title: Parts & Equipment
   - type: markdown
     content: |
       ## Parts and Equipment for Inflatable Operators
