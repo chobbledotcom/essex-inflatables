@@ -1,7 +1,7 @@
 ---
 header_image: /images/bouncy-slide.jpg
 header_text: Links
-meta_title: Links
+meta_title: Useful Links - Essex Inflatables
 eleventyNavigation:
   key: Links
   order: 6
@@ -12,23 +12,20 @@ redirect_from:
 blocks:
   - type: hero
     title: Links
-  - type: markdown
-    content: |
-      Ellis Leisure (Bouncy Castle Hire Essex)
-
-      Click Banner For Their Website
-
-      [![banner](/images/ellis-leisure-banner.jpg)](http://www.ellisleisure.co.uk/)
-
-      Tipe (Inflated Play Enterprise)
-
-      Click Banner For Their Website
-
-      [![tipe](/images/tipe-logo.png)](http://www.tipe.co.uk/)
-
-      PIPA (Performance Inflatable Play Accreditation)
-
-      Click Logo For Their Website
-
-      [![PIPA](/images/pipa-logo.png)](https://www.pipa.org.uk/)
+    lead: Useful resources and industry partners
+  - type: image-cards
+    image_aspect_ratio: "16/9"
+    items:
+      - image: /images/ellis-leisure-banner.jpg
+        title: Ellis Leisure
+        description: "Bouncy Castle Hire Essex"
+        link: "http://www.ellisleisure.co.uk/"
+      - image: /images/tipe-logo.png
+        title: TIPE (Inflated Play Enterprise)
+        description: "Industry resources and support"
+        link: "http://www.tipe.co.uk/"
+      - image: /images/pipa-logo.png
+        title: PIPA
+        description: "Performance Inflatable Play Accreditation"
+        link: "https://www.pipa.org.uk/"
 ---

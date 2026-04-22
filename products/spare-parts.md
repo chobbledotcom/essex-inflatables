@@ -10,36 +10,49 @@ layout: design-system-base.html
 blocks:
   - type: hero
     title: Parts & Equipment
-  - type: markdown
+    lead: Essential spare parts and equipment to keep your business operational
+  - type: features
+    intro: "## What We Stock"
+    center: true
+    items:
+      - icon: "mdi:fan"
+        title: Fans and Blowers
+        description: "New and reconditioned fans and blowers suitable for various inflatable sizes. All electrical equipment can be PAT tested."
+      - icon: "mdi:cone"
+        title: Accessories
+        description: "Extra cones for blower attachments, replacement anchor points, D-rings, safety mats, transport bags and storage covers."
+      - icon: "mdi:package"
+        title: Second-Hand Equipment
+        description: "Quality used equipment available periodically through our connections with Ellis Leisure and other operators."
+  - type: split-image
+    title: Fans and Blowers
     content: |
-      ## Spare Parts and Equipment for Operators
+      We offer both **new and reconditioned** fans and blowers suitable for various inflatable sizes. Our selection includes different power ratings to match your specific equipment requirements.
 
-      We maintain stocks of essential spare parts and equipment to keep your inflatable business operational. From replacement fans to accessories and second-hand units, we supply the components operators need to stay operational.
-
-      ### Fans and Blowers
-
-      We offer both new and reconditioned fans and blowers suitable for various inflatable sizes. Our selection includes different power ratings to match your specific equipment requirements. All electrical equipment can be PAT tested for safety compliance.
+      All electrical equipment can be PAT tested for safety compliance.
 
       For fan repair, cleaning, and servicing, please see our [Repair Services](/repairs/) page.
-
-      ### Additional Equipment
-
-      We supply various accessories and replacement parts including:
-
-      - Extra cones for blower attachments
-      - Replacement anchor points and D-rings
-      - Safety mats and ground sheets
-      - Transport bags and storage covers
-
-      ### Second-Hand Equipment
-
-      Quality used inflatable equipment becomes available periodically through our connections with Ellis Leisure and other operators. When available, we can facilitate sales of:
+    figure_src: /images/WhatsApp Image 2026-02-24 at 21.14.16.jpeg
+    figure_alt: Blower unit
+  - type: split-image
+    title: Second-Hand Equipment
+    reverse: true
+    content: |
+      Quality used inflatable equipment becomes available periodically through our connections with **Ellis Leisure** and other operators. When available, we can facilitate sales of:
 
       - Complete inflatable units in good condition
       - Refurbished blowers and fans
       - Bulk lots of equipment from operators leaving the industry
 
       Second-hand equipment availability varies greatly. Please contact us to discuss current stock or to be notified when suitable equipment becomes available.
-
-      For current stock, pricing, and availability, please contact us on 01268 569302 or email enquiries@essexinflatables.co.uk.
+    figure_src: /images/ellis-leisure-banner.jpg
+    figure_alt: Ellis Leisure equipment
+  - type: cta
+    title: Check Current Stock & Pricing
+    description: "Contact us on **01268 569302** or email **enquiries@essexinflatables.co.uk** for current stock, pricing, and availability."
+    button:
+      text: Contact Us
+      href: /contact/
+      variant: secondary
+      size: lg
 ---

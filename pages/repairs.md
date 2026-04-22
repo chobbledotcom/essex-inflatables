@@ -13,73 +13,78 @@ blocks:
   - type: hero
     title: Repair Services
     lead: Professional In-House Repair Facility
-  - type: markdown
+    badge: Since 1994
+  - type: split-image
+    title: Our Repair Facility
     content: |
-      ## Professional Inflatable Repair Services
+      All repairs are completed at our dedicated workshop facility in the Hullbridge area. This in-house approach ensures consistent quality control, proper working conditions, and access to all necessary equipment and materials.
 
-      Essex Inflatables has been repairing inflatable play equipment since 1994, providing operators with reliable, high-quality repair services from our dedicated facility. Our experienced team handles everything from minor patches to complete structural rebuilds, using professional-grade equipment and materials to ensure lasting repairs.
+      Our workshop is equipped with **air-cooled twin needle sewing machines** specifically designed for heavy-duty PVC work. We maintain extensive stocks of high-quality PVC materials in various colours and weights, along with professional-grade thread that ensures strong, durable repairs.
+    figure_src: /images/sewing.jpg
+    figure_alt: Professional sewing machines
+  - type: callout
+    variant: warning
+    icon: "mdi:alert-circle"
+    title: Pre-Examination Service
+    content: |
+      For operators unsure about repair requirements or costs, we offer a **pre-examination service for £30**. This includes a thorough inspection, identification of all issues, and a detailed written quote for necessary repairs.
+  - type: features
+    intro: "## Types of Repairs We Undertake"
+    items:
+      - icon: "mdi:needle"
+        title: Bed & Panel Stitches
+        description: "Critical structural repairs including bed stitches and back panel stitches for bouncy castles."
+      - icon: "mdi:swap-horizontal"
+        title: Panel Replacement
+        description: "Fabricate and install replacement panels matching original specifications — base sheets, walls, and bed sections."
+      - icon: "mdi:bandage"
+        title: Rips & Tears
+        description: "From small punctures to major structural damage, we assess and repair using patching, stitching, or panel replacement."
+      - icon: "mdi:anchor"
+        title: Anchor Points
+        description: "Replace or reinforce anchor points that bear significant stress during use to ensure continued safe operation."
+      - icon: "mdi:door"
+        title: Internal Repairs
+        description: "Install new zips in step-on stools, replace bed panels inside castle structures, and repair internal diaphragms."
+      - icon: "mdi:fan"
+        title: Blower & Fan Maintenance
+        description: "Strip-down, cleaning, component replacement, and PAT testing for electrical safety compliance."
+  - type: split-image
+    title: Our Repair Process
+    reverse: true
+    content: |
+      When equipment arrives at our facility, we conduct a **thorough assessment** to identify all issues requiring attention. We examine not just the reported damage but check the entire inflatable for any additional problems.
 
-      ### Our Repair Facility
+      Following assessment, we provide a **detailed quote** based on the size of the inflatable, extent of damage, and complexity of required repairs. Different manufacturer designs require different approaches — Chinese-manufactured units often require different techniques than European-made equipment.
 
-      All repairs are completed at our dedicated workshop facility in the Hullbridge area. This in-house approach ensures consistent quality control, proper working conditions, and access to all necessary equipment and materials. We do not currently offer mobile on-site repairs, as our facility provides the controlled environment necessary for professional-quality work.
+      Once repairs are approved, our technicians work systematically through each issue, ensuring all work meets our quality standards. After completion, we conduct **final checks** to ensure the inflatable is ready for safe operation.
+    figure_src: /images/WhatsApp Image 2026-02-24 at 21.14.15.jpeg
+    figure_alt: Repair work in progress
+  - type: split-full
+    variant: primary-right
+    left_title: Emergency Repairs
+    left_content: |
+      We understand that damaged equipment means lost revenue. We offer **emergency call-out services** for urgent situations, though equipment must still be brought to our facility.
 
-      Our workshop is equipped with air-cooled twin needle sewing machines specifically designed for heavy-duty PVC work. We maintain extensive stocks of high-quality PVC materials in various colours and weights, along with professional-grade thread that ensures strong, durable repairs. This investment in proper equipment and materials means we can handle repairs that others might consider beyond salvage.
-
-      ### Types of Repairs We Undertake
-
-      Our repair services cover all aspects of inflatable maintenance and damage repair. We specialise in bed stitches, which are critical for the structural integrity of bouncy castles. Back panel stitches are another common repair we handle, ensuring the walls and structures of inflatables remain secure and safe.
-
-      Panel replacement is a significant part of our work. Whether it is a torn base sheet, damaged wall panel, or worn bed section, we can fabricate and install replacement panels that match the original specifications. We recently completed a full section panel replacement on the base of a jungle assault course, where the operators had torn the base sheet whilst loading it into their van.
-
-      We repair rips and tears of all sizes, from small punctures to major structural damage. Our technicians assess each tear to determine the best repair method, whether that is patching, stitching, or panel replacement. Anchor points, which bear significant stress during use, are frequently replaced or reinforced to ensure continued safe operation.
-
-      Internal repairs form a specialised part of our services. We install new zips in step-on stools, replace bed panels inside castle structures, and repair diaphragms within the internal framework. These repairs often require careful disassembly and reassembly, work that benefits from our controlled workshop environment.
-
-      ### Our Repair Process
-
-      When equipment arrives at our facility, we conduct a thorough assessment to identify all issues requiring attention. We examine not just the reported damage but check the entire inflatable for any additional problems that might affect safety or longevity. This comprehensive approach helps operators avoid unexpected failures and extends equipment life.
-
-      Following assessment, we provide a detailed quote based on the size of the inflatable, extent of damage, and complexity of required repairs. Different manufacturer designs require different approaches, as some castles provide easier internal access than others. Chinese-manufactured units, for example, often require different techniques than European-made equipment.
-
-      Once repairs are approved, our technicians work systematically through each issue, ensuring all work meets our quality standards. We use matching materials wherever possible and ensure all repairs are both functional and aesthetically acceptable. After completion, we conduct final checks to ensure the inflatable is ready for safe operation.
-
-      ### Pre-Examination Service
-
-      For operators unsure about repair requirements or costs, we offer a pre-examination service for £30. This service includes a thorough inspection of your equipment, identification of all issues requiring attention, and a detailed written quote for necessary repairs. This allows operators to make informed decisions about repair versus replacement and budget accordingly for maintenance costs.
-
-      During pre-examination, we can discuss repair options with operators, explaining what work is essential for safety compliance versus what might be cosmetic or optional. This consultation helps operators prioritise repairs according to their budget and operational needs.
-
-      ### Emergency Repair Services
-
-      We understand that damaged equipment means lost revenue for operators. We offer emergency call-out services for urgent situations, though equipment must still be brought to our facility for repair. Our emergency service helps operators get critical repairs completed quickly, minimising downtime during peak operating seasons.
-
-      Call-out charges vary depending on location, time of day, and urgency. Standard business hours call-outs are charged at our regular rate, whilst out-of-hours emergency services incur additional charges. We provide clear pricing for emergency services when operators contact us, ensuring no surprises.
-
-      ### Blower and Fan Maintenance
-
-      Beyond inflatable repairs, we service and maintain the blowers and fans essential for operating inflatable equipment. Our services include complete strip-down and cleaning of fan units, replacement of worn components, fan repair, and testing to ensure optimal performance. We also provide PAT testing for electrical safety compliance.
-
-      Regular blower maintenance extends equipment life and ensures consistent inflation pressure. We stock common replacement parts and can source components for most blower models. When repair is not economical, we can advise on suitable replacement options from our selection of new and reconditioned units.
-
-      ### Repair Materials
-
-      For operators who handle minor repairs themselves, we stock professional-grade repair materials including:
+      Call-out charges vary depending on location, time of day, and urgency. We provide clear pricing for emergency services when operators contact us.
+    right_title: Repair Materials
+    right_content: |
+      For operators who handle minor repairs themselves, we stock professional-grade materials:
 
       - PVC patches in various colours
       - Professional adhesives and solvents
       - Heavy-duty thread for stitching repairs
       - Repair kits for emergency field repairs
       - Replacement zips and fastenings
-
-      Contact us for current stock and pricing on any of the above.
-
-      ### Getting Your Equipment Repaired
-
-      To arrange repairs, contact us with details of the damage and, if possible, photographs showing the affected areas. This helps us provide initial estimates and advise on whether the repair is economically viable. We can then arrange for you to deliver the equipment to our facility or discuss collection options for larger items.
-
-      We aim to complete most repairs within a reasonable timeframe, though complex jobs or busy periods may extend turnaround times. We keep operators informed throughout the repair process and can provide updates on progress as needed.
-
-      ### Request a Repair Quote
-
-      Call **[01268 569302](tel:01268569302)** or email **[enquiries@essexinflatables.co.uk](mailto:enquiries@essexinflatables.co.uk)** with photographs of the damage and details of your equipment, or use our [contact form](/contact/) to send an enquiry.
+    left_button:
+      text: Request Emergency Repair
+      href: /contact/
+  - type: cta
+    title: Request a Repair Quote
+    description: "Call **01268 569302** or email **enquiries@essexinflatables.co.uk** with photographs of the damage and details of your equipment, or use our contact form."
+    button:
+      text: Contact Us
+      href: /contact/
+      variant: secondary
+      size: lg
 ---

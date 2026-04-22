@@ -1,9 +1,7 @@
 ---
 header_image: /images/bouncy-slide.jpg
 header_text: Contact Us
-meta_description: Contact Essex Inflatables for PIPA inspections, inflatable
-  repairs, and equipment services. Phone, email, or visit our Benfleet office.
-  Serving Essex and Southeast England.
+meta_description: Contact Essex Inflatables for PIPA inspections, inflatable repairs, and equipment services. Phone, email, or visit our Benfleet office. Serving Essex and Southeast England.
 meta_title: Contact Essex Inflatables - Testing & Repair Services
 eleventyNavigation:
   key: Contact
@@ -15,22 +13,39 @@ redirect_from:
 blocks:
   - type: hero
     title: Contact Us
-  - type: markdown
+    lead: Get in touch for quotes, bookings, and enquiries
+  - type: icon-links
+    intro: "## Reach Us Directly"
+    items:
+      - icon: "mdi:phone"
+        text: "01268 569302"
+        url: "tel:01268569302"
+      - icon: "mdi:cellphone"
+        text: "07976 979727 (changing soon)"
+        url: "tel:07976979727"
+      - icon: "mdi:email"
+        text: "enquiries@essexinflatables.co.uk"
+        url: "mailto:enquiries@essexinflatables.co.uk"
+      - icon: "mdi:map-marker"
+        text: "Ellis House, Felsted Road, Benfleet, Essex, SS7 1BT"
+      - icon: "mdi:clock-outline"
+        text: "Monday to Friday, 9am - 5pm"
+  - type: callout
+    variant: info
+    icon: "mdi:camera"
+    title: Getting an Accurate Quote
     content: |
-      ## Get in Touch
+      For quote requests, **email is preferred** as it allows us to provide detailed written quotes and maintain clear records. When contacting us about repairs, please include:
 
-      We are available to discuss your inflatable equipment repair and inspection needs. Contact us by phone or email for quotes, bookings, and enquiries. We prefer to provide written quotes via email to ensure clear communication and accurate pricing.
-
-      ### Contact Details
-
-      **Phone:** [01268 569302]
-      **Mobile:** [07976 979727]
-      Please note our mobile number will be changing soon. We will update this information when the new number is active.
-
-      **Email:** [enquiries@essexinflatables.co.uk]
-      For quotes, please include photographs of any damage and details about your equipment.
-
-      ### Office Address
+      - Type and size of inflatable
+      - Description of damage or issues
+      - **Photographs** showing the affected areas
+      - Your location and any access requirements for inspections
+  - type: split-full
+    variant: dark-left
+    left_title: Office & Workshop
+    left_content: |
+      **Office Address:**
 
       Ellis House
       Felsted Road
@@ -38,26 +53,15 @@ blocks:
       Essex
       SS7 1BT
 
-      Please note that repairs are completed at our workshop facility in the Hullbridge area (SS5 POSTCODE). The exact location will be provided when you arrange to deliver equipment for repair.
+      **Workshop:**
 
-      ### Preferred Contact Methods
+      Repairs are completed at our workshop facility in the **Hullbridge area (SS5)**. The exact location will be provided when you arrange to deliver equipment for repair.
+    right_title: Service Coverage
+    right_content: |
+      We provide **PIPA inspection services** throughout Essex, London, Kent, Hertfordshire, Surrey, and the Southeast region.
 
-      We welcome enquiries by both phone and email. For quote requests, email is preferred as it allows us to provide detailed written quotes and maintain clear records. When contacting us about repairs, please provide:
-
-      - Type and size of inflatable
-      - Description of damage or issues
-      - Photographs showing the affected areas
-      - Your location and any access requirements for inspections
-
-      ### Business Hours
-
-      Monday to Friday 9am - 5pm
-
-      For emergency repairs outside standard hours, additional call-out charges apply. Please contact us to discuss urgent requirements and pricing.
-
-      ### Service Coverage
-
-      We provide PIPA inspection services throughout Essex, London, Kent, Hertfordshire, Surrey, and the Southeast region. For repairs, equipment must be delivered to our Hullbridge facility.
-
-      Use the form below to send us an enquiry and we will respond as soon as possible.
+      For **repairs**, equipment must be delivered to our Hullbridge facility. We serve the same geographical area, but operators are responsible for delivering equipment to us or arranging collection.
+  - type: contact-form
+    header_intro: "## Send Us an Enquiry"
+    header_align: center
 ---
