@@ -4,7 +4,7 @@ header_text: Not Found
 meta_description:
 meta_title: Not Found
 layout: design-system-base.html
-permalink: /not_found.html
+permalink: /bunnycdn_errors/404.html
 blocks:
   - type: markdown
     content: |
