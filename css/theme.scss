@@ -107,28 +107,17 @@
     font-size: clamp(1.8rem, 4vw, 2.7rem);
   }
 
-  // Section headings get a stitched underline spanning the heading text
-  // (display:table shrink-wraps the h2 to its words; ::after spans it 100%)
+  // Section headings get a stitched underline that follows the rendered
+  // text on every line (text-decoration hugs each line's words, unlike a
+  // block/table box which is sized before line-breaking and therefore
+  // stretches to the container on wrapped headings)
   h2 {
-    display: table;
-    position: relative;
-    padding-bottom: 0.35em;
-
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      border-bottom: 4px dashed var(--color-secondary);
-    }
-  }
-
-  // Centre-aligned contexts get a centred heading box
-  .text-center h2,
-  .cta h2,
-  section:has(ul.features.text-center) h2 {
-    margin-inline: auto;
+    text-decoration: underline;
+    text-decoration-color: var(--color-secondary);
+    text-decoration-style: dashed;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 0.22em;
+    padding-bottom: 0.08em;
   }
 }
 
