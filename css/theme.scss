@@ -355,15 +355,6 @@
     object-fit: contain;
   }
 
-  // Split figure captions — small stitched labels
-  figcaption {
-    font-family: "Nunito", Arial, sans-serif;
-    font-weight: 700;
-    color: var(--color-text);
-    border-top: 3px dashed var(--color-secondary);
-    margin-top: 0.5rem !important;
-    padding-top: 0.5rem;
-  }
 }
 
 // -----------------------------------------------------------------------------
