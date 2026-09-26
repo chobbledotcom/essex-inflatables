@@ -1,9 +1,9 @@
 ---
+name: Page Not Found
 header_image: /images/bouncy-slide.jpg
 header_text: Not Found
 meta_description:
 meta_title: Not Found
-layout: design-system-base.html
 permalink: /bunnycdn_errors/404.html
 blocks:
   - type: markdown

@@ -1,13 +1,13 @@
 ---
+name: Frequently Asked Questions
 header_image: /images/bouncy-slide.jpg
 header_text: Frequently Asked Questions
-meta_description: Common questions about inflatable repairs, PIPA testing, pricing, and services. Find answers about inspection frequency, repair costs, and service coverage areas.
+meta_description: Common questions about bouncy castle repairs, PIPA testing, pricing, emergency repairs and service coverage across Essex, London and the Southeast.
 meta_title: FAQ - Essex Inflatables
 subtitle: Common Questions About Our Services
 eleventyNavigation:
   key: FAQ
-  order: 5
-layout: design-system-base.html
+  order: 7
 permalink: /faq/
 blocks:
   - type: section-header
@@ -64,9 +64,9 @@ blocks:
 
       ### What if I need an emergency repair?
 
-      We offer **emergency call-out services** for urgent repair situations. However, even for emergency repairs, equipment must be brought to our facility. Emergency services help prioritise urgent repairs to minimise your downtime during peak operating periods.
+      If a repair is urgent, phone ahead on **01268 569302** and we'll book your inflatable straight into the workshop as an **emergency repair** — priority jobs are turned around as quickly as possible once the equipment arrives, usually minimising your downtime during peak operating periods.
 
-      Standard business hours emergency calls are charged at our regular call-out rate. Out-of-hours emergency services, including evenings and weekends, incur additional charges.
+      All repair work, emergency or otherwise, is carried out at our Hullbridge facility where our machines and material stocks are to hand. Out-of-hours and weekend drop-offs can be arranged by prior agreement, and additional charges apply for out-of-hours handling.
 
       ---
 
@@ -105,11 +105,13 @@ blocks:
 
       During busy periods, particularly early in the season, turnaround times may be extended. We keep operators informed about progress and can provide updates on request.
   - type: cta
-    title: Still Have Questions?
-    description: We're happy to help. Get in touch by phone or email and we'll answer any questions about our services.
     button:
       text: Contact Us
       href: /contact/
       variant: secondary
       size: lg
+    content: |-
+      ## Still Have Questions?
+
+      We're happy to help. Get in touch by phone or email and we'll answer any questions about our services.
 ---

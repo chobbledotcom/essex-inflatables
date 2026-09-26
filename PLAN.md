@@ -1,65 +1,59 @@
 # Site Fixes Plan
 
-## Easy Peasy — Done
+## September 2026 — Images, Gallery, Reviews & Template Migration
 
-Applied in commit on `claude/categorize-fixes-plan-XGYai`.
+Completed in this session (2026-09-26):
 
-- [x] Change "Holbridge" to "Hullbridge" on the Home page (`pages/home.md`, Professional Repairs section)
-- [x] Change "Holbridge" to "Hullbridge" on the Repair Service card (`categories/repairs.md`)
-- [x] Change "Holbridge" to "Hullbridge" on the main Repairs page (`pages/repairs.md`)
-- [x] Change "Holbridge" to "Hullbridge" on the Contact Us page (`pages/contact.md`)
-- [x] Site-wide check: no remaining occurrences of "Holbridge" in content files
-- [x] Update pre-examination fee from £25 to £30 on the Repair Service card (`categories/repairs.md`)
-- [x] Update pre-examination service from £25 to £30 on the main Repairs page (`pages/repairs.md`)
-- [x] Align pricing across pages — also updated `pages/services.md` from £25 to £30. FAQ (`pages/faq.md`) already said £30.
-- [x] Move "fan repairs" and "repair materials" from Spare Parts → Repair Services: removed from `products/spare-parts.md` and from the bullet list in `categories/for-sale.md`; added a Repair Materials section and expanded Blower and Fan Maintenance wording on `pages/repairs.md`.
-- [x] Add a link to the PIPA website on the side imagery on the Home page — `snippets/right-content.md` now wraps the PIPA logo in a link to https://www.pipa.org.uk/ (URL still to be confirmed — see Requires Web Research).
-- [x] Add a PIPA logo on the Links page with a link to PIPA (`pages/links.md`, using existing `/images/pipa-logo.png`).
-- [x] Add a contact form on the PIPA Testing page — `pages/pipa-inspections.md` now uses `layout: contact.html`, which the chobble-template renders with a contact form (plus FAQ and map).
-- [x] Reduce overlap between PIPA Testing / PIPA Inspections — Services page PIPA section trimmed to a short summary linking to the full PIPA Inspections page.
-- [x] Reduce overlap between Repair Services / Repairs — Services page Repairs section trimmed to a short summary linking to the full Repairs page.
-- [x] Make the Services page a true summary / gateway page (`pages/services.md`).
-- [x] Stronger calls to action across key pages — CTA blocks added to `pages/repairs.md` and `pages/pipa-inspections.md`; Services page and footer also surface direct contact details.
-- [x] Strengthen footer with quick links / contact / credentials (`snippets/footer-content.md`).
-- [x] Clearer "how it works" sections — `pages/repairs.md` already had "Our Repair Process"; `pages/pipa-inspections.md` now has a numbered "How It Works" section.
-- [x] Add "blower and fan maintenance" as a sub-heading under Repair Services — added as a bullet in the left-hand Repair Services card (`categories/repairs.md`). `pages/repairs.md` also already has a "Blower and Fan Maintenance" heading. **⚠ Caveat:** if "left-hand side" means a literal sidebar sub-nav on the rendered site, the fix may instead want a dedicated page with `eleventyNavigation` nesting under Repairs — please confirm.
+- [x] Described all 107 photos from Harry's "Stefan Essex web" zip with the vision model — catalog saved at `info/image-descriptions.json`
+- [x] Selected ~20 of the best photos, copied into `images/` with clean names (hero, before/after composites, blower servicing, stakes, workshop shots, finished inflatables)
+- [x] Downloaded the official Ellis Leisure logo from ellisleisure.co.uk → `images/ellis-leisure-logo.png` and swapped it for the banner on the Links page
+- [x] Saved an Essex Inflatables logo variant → `images/essex-inflatables-logo.png` (unused for now, kept for future branding)
+- [x] New **Repair Gallery** page at `/gallery/` (`pages/gallery.md`) — 14 before/after and workshop photos with captions, in nav between Repairs and News; linked from home, repairs page and footer
+- [x] Home page: new `image-background` hero (workshop photo) with trade-facing opening message and two CTAs; real photography on the inspections/repairs splits; a "Recent Repairs" gallery teaser; a "Why Operators Trust Essex Inflatables" trust block linking to **Facebook reviews**
+- [x] Facebook reviews links (home trust block, sidebar, footer) pointing at the page's `/reviews/` URL
+- [x] Repairs page: real photos on the facility and process splits, a new **Blower & Fan Maintenance** split with the clogged-impeller before shot, gallery callout, headline CTA
+- [x] PIPA page: scope list updated against pipa.org.uk (ball pits and toddler play zones added to the scheme from March 2026; non ride-on games in scope; out-of-scope equipment still inspected in-house as a competent person), link to PIPA's scope page, and a **contact form** ("Book Your PIPA Inspection")
+- [x] News article retitled (**"Our New Website Is Live!"**), proper meta title/description, images added, contact details aligned with the rest of the site
+- [x] Removed the "(changing soon)" hedge from the mobile number — confirm the number is current
+- [x] Emergency call-out wording rewritten everywhere (repairs page + FAQ): phone-ahead priority workshop repairs, no longer implies mobile call-out
+- [x] SEO: location keywords woven into meta descriptions and copy — Benfleet, Hullbridge, Southend, Basildon, Rayleigh, Chelmsford, Romford, Brentwood, London; footer now lists the towns served
+- [x] Nav orders renumbered to fit Gallery (Home → Services → PIPA → Repairs → Gallery → News → HSE → FAQ → Links → Contact)
+- [x] Fixed a genuine broken-link bug: every page linked `/hse-best-practices/` but the permalink was `/hse-best-practice/` — permalink now matches the links, old URL redirects
+- [x] Migrated all content to the **current chobble-template schema** (the template changed in June 2026 after the site's last build — the site no longer built at all):
+  - `layout: design-system-base.html` removed everywhere (template default is now `base.html`)
+  - block key renames: `intro` → `intro_content`, callout `title` → `name`, features/image-cards items `title` → `name`, split-* `title` folded into `content` as `##` heading, split-full `left_title`/`right_title` folded into content, cta `title`+`description` → `content`, contact-form `header_intro` → `intro_content`
+  - every page/product/category now has the required `name` field
+  - news items require `name`; article updated accordingly
+- [x] `scripts/prepare-dev.js`: excluded the new `info/` working folder, `PLAN.md` and `QUESTIONS.md` from the build sync (they broke the build)
+- [x] Same exclusions added to the GitHub deploy workflow; `info/` gitignored so the 1GB zip never lands in the repo
+- [x] Full local build verified green (template validated, 38 pages, internal link check passed)
 
-## Easy Peasy — Deferred
+## Earlier — Done
 
-- [ ] Break up longer text sections on Repairs / PIPA / HSE pages — deferred as this benefits from an editorial pass rather than mechanical splits.
-- [ ] Final mobile polish across all pages — deferred as this is CSS/layout work in the `chobble-template`, not a content change.
+Applied in earlier commits:
 
-## Requires Input
+- [x] "Holbridge" → "Hullbridge" everywhere (home, repairs, contact, repair service card)
+- [x] Pre-examination fee £25 → £30 everywhere (repairs, services, FAQ already £30)
+- [x] Fan repairs and repair materials moved under Repair Services (off the Spare Parts page)
+- [x] PIPA logo link on `snippets/right-content.md` → https://www.pipa.org.uk/ (confirmed live)
+- [x] PIPA logo + link added on the Links page
+- [x] Services page restructured as a gateway page with image cards and CTAs
+- [x] Footer strengthened (quick links, contact details, credentials)
+- [x] "How it works" sections on Repairs and PIPA pages
+- [x] Contact form added to Contact page (formspark + botpoison configured in site.json)
 
-These need clarification, decisions, or content from the user before they can be completed.
+## Still Needs Input From You
 
-- [ ] **News page title**: which title needs updating?
-  - `pages/news.md` archive page currently has Lorem-ipsum-style heading "Congue Ipsum" + body.
-  - The one news article (`news/1980-01-01-second.md`) has `meta_title: First Post` and `title: New Improved Essex Inflatables Website!`.
-  - Confirm which one to change and the new title.
-- [ ] **News page body**: the archive page has placeholder Lorem-ipsum text that needs replacing — what content should go here (or should it just be the post listing)?
-- [ ] **Workshop postcode**: `pages/contact.md` reads "Hullbridge area (SS5 POSTCODE)" — what is the real postcode?
-- [ ] **Mobile number wording**: `pages/contact.md` says "our mobile number will be changing soon" — is this still true, and if not, what replaces it?
-- [ ] **Emergency call-out / emergency repairs wording**: on `pages/repairs.md`, what is the new preferred wording?
-- [ ] **Homepage positioning / opening message**: preferred tone for operator/trade positioning.
-- [ ] **Contact page conversion focus**: what extra fields or flow should the repair enquiry form have?
-- [ ] **Parts & Equipment page detail + CTA**: needs more product detail (stock, prices, specs — see `QUESTIONS.md`).
-- [ ] **Repair quote enquiry flow**: preferred structure for submitting photos and getting an assessment (email only, form with upload, WhatsApp, etc.?).
-- [ ] **Reviews / testimonials section**: Facebook reviews embedded, manual quotes, or a link-out? Review content needed.
-- [ ] **Gallery section**: confirm desired structure (per-project pages, simple grid, before/after slider, etc.).
+- [ ] **Mobile number**: removed "(changing soon)" — confirm 07976 979727 is still the right number
+- [ ] **Facebook reviews URL**: linked to the standard `/reviews/` page on the Facebook profile — confirm the page has reviews enabled there
+- [ ] **News title**: set to "Our New Website Is Live!" — shout if you'd prefer something else
+- [ ] **Workshop postcode**: contact page says "Hullbridge area (SS5)" — happy with that, or supply the full postcode if you want it published
+- [ ] **New-keyword coverage**: current footer/copy names Benfleet, Hullbridge, Southend, Basildon, Rayleigh, Chelmsford, Romford, Brentwood + London/Kent/Herts/Surrey — tell us if there are towns you specifically want named
+- [ ] **Reviews content**: currently a link-out to Facebook reviews; the template also supports embedding real quotes as a `reviews` collection if you want to send us some words from customers
+- [ ] **More imagery**: ~80 further photos from the zip remain unused (catalog in `info/image-descriptions.json`) — plenty more before/after and workshop shots available if you want more sections illustrated
+- [ ] **Mobile polish / text breakup**: editorial + CSS pass across pages, as before
 
-## Requires Images
+## Notes
 
-Blocked on image assets being supplied.
-
-- [ ] Replace the Ellis Leisure banner on the Links page with the Ellis Leisure logo — only `images/ellis-leisure-banner.jpg` exists today; need a logo file.
-- [ ] Gallery section — need before-and-after photos of recent repairs.
-- [ ] More real imagery throughout the site — current images include stock-style shots plus a set of `WhatsApp Image 2026-02-24 at …` files that could be used if suitable.
-- [ ] Any imagery for a testimonials / reviews section.
-
-## Requires Web Research
-
-- [ ] PIPA Testing page: double-check what now falls within and outside of PIPA's remit — confirm current scope against pipa.org.uk and update `pages/pipa-inspections.md` (and the non-PIPA list in `pages/services.md`).
-- [ ] SEO keywords + location-based wording — research local search terms (surrounding towns, "bouncy castle repairs near me", "PIPA testing Essex", etc.) and weave into page copy and `meta_description`/`meta_title` fields.
-- [ ] Confirm the PIPA website URL used in `snippets/right-content.md` and `pages/links.md` (currently https://www.pipa.org.uk/).
-- [ ] Confirm Facebook reviews URL / embed approach for the reviews section (the existing Facebook page link is in `_data/site.json`: https://www.facebook.com/p/Essex-Inflatables-100063786302750).
+- The local build runs with `nix develop --impure --command bun run build` from the repo root (bun 1.3.13 via flake). One flaky Bun/sharp segfault was seen once during image processing — a clean retry succeeded.
+- `info/` is gitignored: it holds the original photo dump, the zip, WhatsApp export and the description catalog. The photos we use have been copied into `images/`.

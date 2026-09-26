@@ -57,7 +57,10 @@ jobs:
             --recursive \
             --verbose \
             --exclude=".*" \
+            --exclude="info" \
             --exclude="README.md" \
+            --exclude="PLAN.md" \
+            --exclude="QUESTIONS.md" \
             --exclude="package.json" \
             --exclude="bun.lock" \
             source/ \

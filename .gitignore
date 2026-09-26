@@ -9,4 +9,5 @@ yarn-error.log*
 .env
 .claude
 screenshots/
+info/
 .jscpd-report/

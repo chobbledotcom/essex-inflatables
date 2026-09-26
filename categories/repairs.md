@@ -1,5 +1,5 @@
 ---
-title: Repair Services
+name: Repair Services
 header_image: /images/sewing.jpg
 header_text: Professional Repairs
 meta_description: Expert repair services for all types of inflatable damage.
@@ -7,7 +7,6 @@ meta_description: Expert repair services for all types of inflatable damage.
   since 1994.
 meta_title: Professional Inflatable Repair Services - Essex Inflatables
 featured: true
-layout: design-system-base.html
 blocks:
   - type: markdown
     content: |

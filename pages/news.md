@@ -1,14 +1,14 @@
 ---
+name: News
 header_image: /images/bouncy-slide.jpg
 header_text: News
 meta_title: News - Essex Inflatables
 eleventyNavigation:
   key: News
-  order: 3
-layout: design-system-base.html
+  order: 5
 permalink: /news/
 blocks:
   - type: items
     collection: news
-    intro: "## Latest News"
+    intro_content: "## Latest News"
 ---

@@ -1,5 +1,5 @@
 ---
-title: Parts & Equipment
+name: Parts & Equipment
 header_image: /images/nuts.jpg
 header_text: Parts & Equipment
 meta_description: Spare parts, equipment, and accessories for inflatable
@@ -9,7 +9,6 @@ meta_title: Parts and Equipment for Sale - Essex Inflatables
 redirect_from:
   - /Equipement For Sale.html
 featured: true
-layout: design-system-base.html
 blocks:
   - type: markdown
     content: |

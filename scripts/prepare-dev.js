@@ -21,6 +21,8 @@ const rootExcludes = [
 	".git",
 	".direnv",
 	"*.nix",
+	"PLAN.md",
+	"QUESTIONS.md",
 	"README.md",
 	buildDir,
 	"scripts",
@@ -28,6 +30,7 @@ const rootExcludes = [
 	"package*.json",
 	"bun.lock",
 	"old_site",
+	"info",
 	...(process.env.PLACEHOLDER_IMAGES === "1" ? ["images"] : []),
 ];
 
