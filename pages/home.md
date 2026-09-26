@@ -1,6 +1,6 @@
 ---
 name: Essex Inflatables
-header_image: /images/bouncy-slide.jpg
+image: /images/og-image.jpg
 header_text: Essex Inflatables
 meta_description: Bouncy castle repair specialists and PIPA Inspection Body based in Hullbridge. Inflatable repairs, safety testing and spare parts for operators across Benfleet, Southend, Basildon, Rayleigh, Chelmsford, Romford, London and the Southeast.
 meta_title: Essex Inflatables - Bouncy Castle Repairs & PIPA Testing in Essex
@@ -14,6 +14,7 @@ blocks:
     image_alt: Colourful inflatable PVC panels beside an industrial sewing machine at the Essex Inflatables workshop
     badge: Family-run since 1994
     tint: true
+    parallax: true
     content: |
       # Inflatable Repairs, PIPA Testing & Spare Parts
 
@@ -26,7 +27,27 @@ blocks:
     - text: Book a PIPA Inspection
       href: /pipa-inspections/
       variant: secondary
-      size: lg
+  - type: marquee-images
+    speed: 35s
+    height: 64px
+    intro_content: |
+      ## Inspected, Certified & Connected
+
+      Part of the Essex Inflatables trade network of schemes and partner companies.
+    items:
+      - image: /images/pipa-logo.png
+        alt: PIPA — Performance Inflatable Play Accreditation
+        link_url: https://www.pipa.org.uk/
+      - image: /images/tipe-logo.png
+        alt: TIPE — The Inflated Play Enterprise
+        link_url: http://www.tipe.co.uk/
+      - image: /images/ellis-leisure-logo.png
+        alt: Ellis Leisure — bouncy castle and soft play hire
+        link_url: http://www.ellisleisure.co.uk/
+      - image: /images/essex-inflatables-badge-sm.png
+        alt: Essex Inflatables
+        link_url: /
+
   - type: stats
     items:
     - value: 30+

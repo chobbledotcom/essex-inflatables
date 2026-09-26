@@ -25,6 +25,7 @@ const rootExcludes = [
 	"QUESTIONS.md",
 	"README.md",
 	buildDir,
+	"_site",
 	"scripts",
 	"node_modules",
 	"package*.json",

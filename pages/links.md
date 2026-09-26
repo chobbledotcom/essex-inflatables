@@ -17,15 +17,15 @@ blocks:
 
       Organisations and companies we work with across the inflatable industry.
     items:
-    - image: /images/ellis-leisure-logo.png
+    - image: /images/ellis-leisure-logo-card.png
       description: Bouncy castle and soft play hire in Essex — our sister company
       link: "http://www.ellisleisure.co.uk/"
       name: Ellis Leisure
-    - image: /images/tipe-logo.png
+    - image: /images/tipe-logo-card.png
       description: Industry resources and support
       link: "http://www.tipe.co.uk/"
       name: TIPE (Inflated Play Enterprise)
-    - image: /images/pipa-logo.png
+    - image: /images/pipa-logo-card.png
       description: Performance Inflatable Play Accreditation
       link: "https://www.pipa.org.uk/"
       name: PIPA

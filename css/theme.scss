@@ -1,37 +1,615 @@
-@import url(https://fonts.bunny.net/css?family=norican:400);
+@charset "utf-8";
 
-:root {
-  --color-bg: #fbfae3;
-  --color-text: #241f31;
-  --color-link: #a51d2d;
-  --color-bg-secondary: #fff8dc;
-  --border: 2px solid #aa8c2c;
-  --font-family-body:
-    Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial,
-    sans-serif;
-  --font-family-heading: "Fredoka One", var(--font-family-body);
-  --line-height: 1.5;
-  --link-decoration: underline;
-  --link-decoration-hover: underline;
-  --link-decoration-style: dotted;
-  --header-text-color: #ffffff;
-  --form-button-text-color: #241f31;
-  --form-button-border: 2px solid #241f31;
-  --form-button-hover-text-color: #aa8c2c;
-  --form-button-hover-border: 2px solid #aa8c2c;
-}
+// =============================================================================
+// ESSEX INFLATABLES THEME — "Funfair Workshop"
+// Bouncy-castle energy with trade credibility: cream paper background, navy
+// ink outlines, castle-red links, mango-yellow accents, chunky rounded
+// Fredoka One headings and a comic offset shadow motif. Dashed borders echo
+// stitching. Loaded last in the design-system bundle so it overrides.
+// =============================================================================
 
-/* body_classes: header-centered-dark */
-
-.header-centered-dark header h1 {
-  color: white;
-}
-
-h1,
-h2,
-h3,
-h4,
-h4,
-nav {
+// -----------------------------------------------------------------------------
+// Fonts — self-hosted from Bunny Fonts (assets/fonts/)
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: "Fredoka One";
+  font-style: normal;
   font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/fredoka-one-latin-400-normal.woff2") format("woff2"),
+    url("/assets/fonts/fredoka-one-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/nunito-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/nunito-latin-700-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/assets/fonts/nunito-latin-800-normal.woff2") format("woff2");
+}
+
+// -----------------------------------------------------------------------------
+// Palette — cream paper, navy ink, castle red, mango yellow
+// -----------------------------------------------------------------------------
+:root {
+  --color-bg: #fffaef;
+  --body-background: #fffaef;
+  --body-background-alt: #fdf2da;
+  --color-card-bg: #ffffff;
+  --color-text: #22284f;
+  --color-text-muted: #6b6f8f;
+  --color-link: #e0202f;
+  --color-link-hover: #a5151f;
+  --color-tint: #fdeaea;
+  --color-secondary: #ffb730;
+  --color-accent: #fdeaea;
+  --color-hover-bg: rgba(224, 32, 47, 0.07);
+  --color-contrast-text: #ffffff;
+  --color-contrast-text-muted: rgba(255, 255, 255, 0.85);
+  --color-gradient-start: #e0202f;
+  --color-gradient-end: #ff8c1a;
+  --border: 2px solid #22284f;
+  --border-radius: 14px;
+  --box-shadow: 5px 6px 0 rgba(34, 40, 79, 0.18);
+  --line-height: 1.6;
+  --link-decoration: underline;
+  --link-decoration-hover: none;
+  --link-decoration-style: solid;
+  --list-marker-content: "▸ ";
+  --list-marker-color: #e0202f;
+  --font-family-body: "Nunito", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-heading: "Fredoka One", "Nunito", ui-rounded, "Arial Rounded MT",
+    Arial, sans-serif;
+  --header-text-color: #22284f;
+  --form-button-text-color: #ffffff;
+  --form-button-border: 2px solid #22284f;
+  --form-button-hover-text-color: #ffffff;
+  --form-button-hover-border: #22284f;
+}
+
+// -----------------------------------------------------------------------------
+// Typography
+// -----------------------------------------------------------------------------
+.design-system {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Fredoka One", "Nunito", ui-rounded, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 1.15;
+    color: var(--color-text);
+  }
+
+  h1 {
+    font-size: clamp(2.4rem, 6vw, 4rem);
+  }
+
+  h2 {
+    font-size: clamp(1.8rem, 4vw, 2.7rem);
+  }
+
+  // Section headings get a stitched underline - nod to the workshop
+  h2 {
+    position: relative;
+    padding-bottom: 0.35em;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: min(100%, 7rem);
+      border-bottom: 4px dashed var(--color-secondary);
+    }
+  }
+
+  .text-center {
+    h2::after,
+    h2.text-center::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Header + nav with the logo lockup
+// -----------------------------------------------------------------------------
+.design-system nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Nunito", Arial, sans-serif;
+
+  & > ul {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem 0.9rem;
+    margin: 0;
+    font-weight: 800;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+    color: #22284f;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: var(--color-link);
+  }
+
+  li.active a,
+  li a.active,
+  a.active,
+  a.active:visited {
+    color: var(--color-link);
+  }
+
+  // Hide the mobile hamburger toggle on desktop widths
+  .toggle-label {
+    display: none;
+  }
+
+  // Nav search box, if present
+  .nav-search input[type="search"],
+  .search-box input[type="search"] {
+    border-color: #22284f;
+    border-radius: 9999px 0 0 9999px;
+  }
+}
+
+.design-system nav .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  flex-shrink: 0;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  .nav-logo__badge {
+    height: 3rem;
+    width: auto;
+    filter: drop-shadow(2px 3px 0 rgba(34, 40, 79, 0.2));
+  }
+
+  .nav-logo__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.05;
+  }
+
+  .nav-logo__name {
+    font-family: "Fredoka One", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: #22284f;
+    letter-spacing: 0.01em;
+  }
+
+  .nav-logo__tag {
+    font-family: "Nunito", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-link);
+    margin-top: 0.15rem;
+  }
+
+  @media (width <= 760px) {
+    .nav-logo__badge {
+      height: 2.6rem;
+    }
+
+    .nav-logo__name {
+      font-size: 1.05rem;
+    }
+
+    .nav-logo__tag {
+      display: none;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Hero image-background — stronger legibility overlay
+// -----------------------------------------------------------------------------
+.image-background {
+  position: relative;
+  isolation: isolate;
+  color: #ffffff;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: linear-gradient(
+      180deg,
+      rgba(24, 28, 58, 0.32) 0%,
+      rgba(24, 28, 58, 0.62) 100%
+    );
+    pointer-events: none;
+  }
+
+  > figure {
+    position: relative;
+    z-index: 3;
+  }
+
+  .badge {
+    background: var(--color-secondary);
+    border: 2px solid #22284f;
+    color: #22284f;
+    font-weight: 800;
+    box-shadow: 3px 3px 0 rgba(34, 40, 79, 0.35);
+  }
+
+  h1 {
+    color: #ffffff;
+    text-shadow: 2px 3px 0 rgba(24, 28, 58, 0.4);
+  }
+
+  figcaption > .prose,
+  .prose {
+    color: rgba(255, 255, 255, 0.95);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Cards, features, callouts — comic outlines with offset shadows
+// -----------------------------------------------------------------------------
+.design-system {
+  .feature,
+  .items > li {
+    background: var(--color-card-bg);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 8px 9px 0 rgba(34, 40, 79, 0.2);
+    }
+  }
+
+  .feature h3 {
+    color: var(--color-text);
+  }
+
+  // Icon badges become mango stickers
+  .icon-badge,
+  [class*="icon-badge"] {
+    background: var(--color-secondary) !important;
+    border: 2px solid #22284f;
+    color: #22284f;
+  }
+
+  // Callouts read as stitched repair patches
+  .callout {
+    background: var(--color-card-bg);
+    border: 2px dashed #22284f;
+    border-radius: var(--border-radius);
+
+    &--info {
+      border-color: #3c5aa8;
+      background: #eef3fc;
+    }
+
+    &--warning {
+      border-color: var(--color-link);
+      background: var(--color-tint);
+    }
+
+    &--success {
+      border-color: #2c8a4b;
+      background: #edf9f0;
+    }
+
+    &--danger {
+      border-color: #8a1e28;
+      background: #fbeef0;
+    }
+  }
+
+  // Stats — big red Fredoka numerals
+  .stats .stat dd strong {
+    font-family: "Fredoka One", Arial, sans-serif;
+    font-weight: 400;
+    color: var(--color-link);
+    font-size: clamp(2.4rem, 5vw, 3.2rem);
+    line-height: 1.1;
+  }
+
+  .stats .stat dt {
+    font-weight: 800;
+    letter-spacing: 0.02em;
+  }
+
+  // Marquee logo strip — white plates with navy outlines
+  .marquee-images .image-wrapper img,
+  .marquee-images img {
+    background: #ffffff;
+    border: 2px solid #22284f;
+    border-radius: 10px;
+    padding: 4px 12px;
+    object-fit: contain;
+  }
+
+  // Right sidebar — dress it as a deliberate card rather than loose items
+  .right-column {
+    background: var(--color-card-bg);
+    border: 2px solid #22284f;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 1.25rem;
+    font-size: 0.95rem;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 0.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    img {
+      display: block;
+      max-width: 120px;
+      margin: 0.75rem auto;
+    }
+
+    a img {
+      margin: 0.75rem auto;
+    }
+  }
+
+  // Split figure captions — small stitched labels
+  figcaption {
+    font-family: "Nunito", Arial, sans-serif;
+    font-weight: 700;
+    color: var(--color-text);
+    border-top: 3px dashed var(--color-secondary);
+    margin-top: 0.5rem !important;
+    padding-top: 0.5rem;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Buttons — chunky pills with offset shadows
+// -----------------------------------------------------------------------------
+.design-system {
+  .btn,
+  button,
+  [class*="btn"] {
+    border-radius: 9999px;
+    font-family: "Nunito", Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    border-width: 2px;
+    transition: transform 0.12s ease, box-shadow 0.12s ease,
+      background 0.12s ease;
+  }
+
+  a.btn--primary,
+  .btn--primary {
+    background: var(--color-link);
+    border: 2px solid #22284f;
+    box-shadow: 3px 4px 0 rgba(34, 40, 79, 0.35);
+    color: #ffffff;
+
+    &:hover:not(:disabled) {
+      background: #a5151f;
+      color: #ffffff;
+      transform: translate(-1px, -2px);
+      box-shadow: 5px 6px 0 rgba(34, 40, 79, 0.35);
+    }
+  }
+
+  a.btn--secondary,
+  .btn--secondary {
+    border: 2px solid #22284f;
+    color: #22284f;
+    background: #ffffff;
+    box-shadow: 3px 4px 0 rgba(34, 40, 79, 0.22);
+
+    &:hover:not(:disabled) {
+      color: #ffffff;
+      background: #22284f;
+      transform: translate(-1px, -2px);
+      box-shadow: 5px 6px 0 rgba(34, 40, 79, 0.28);
+    }
+  }
+
+  // On dark hero/CTA surfaces secondary stays light
+  .image-background figcaption .btn--secondary,
+  .cta .btn--secondary,
+  [class*="dark"] .btn--secondary {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    border-color: #fff;
+
+    &:hover:not(:disabled) {
+      background: #fff;
+      color: #22284f;
+    }
+  }
+
+  .image-background figcaption .btn--primary,
+  .cta .btn--primary {
+    &:hover:not(:disabled) {
+      color: #ffffff;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// CTA banner — bright gradient with stitched inner border
+// -----------------------------------------------------------------------------
+.design-system .cta {
+  border: 2px solid #22284f;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  outline: 2px dashed rgba(255, 255, 255, 0.55);
+  outline-offset: -8px;
+
+  h2,
+  .prose,
+  p {
+    color: #ffffff;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Footer — deep navy with cream text
+// -----------------------------------------------------------------------------
+.design-system {
+  footer {
+    background: #1c2144;
+    color: #f5f2ff;
+    padding-top: 3rem !important;
+    padding-bottom: 2rem;
+
+    a {
+      color: #ffd98a;
+      text-decoration: none;
+
+      &:hover {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+    }
+
+    // Socials row — tidy round gold buttons
+    .socials {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.5rem;
+      list-style: none;
+      margin: 0 0 1.5rem;
+      max-width: 1200px;
+      margin-inline: auto;
+      padding: 0;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 50%;
+        background: var(--color-secondary);
+        border: 2px solid #ffffff;
+        color: #1c2144;
+        font-size: 1.15rem;
+
+        &:hover {
+          color: #1c2144;
+          background: #ffffff;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: minmax(220px, 1.2fr) 1fr 1fr;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      align-items: start;
+      text-align: left;
+
+      & > div > p {
+        text-align: left;
+        margin-inline: 0;
+      }
+
+      @media (width <= 820px) {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .footer-logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 1rem;
+      background: #ffffff;
+      border-radius: 50%;
+      border: 3px solid #fff;
+    }
+
+    .footer-heading {
+      font-family: "Fredoka One", Arial, sans-serif;
+      color: #ffffff;
+      font-size: 1.05rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-links ul,
+    .footer-contact ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+
+    .footer-legal {
+      max-width: 1200px;
+      margin: 2rem auto 0;
+      padding-top: 1.25rem;
+      border-top: 2px dashed rgba(255, 255, 255, 0.25);
+      font-size: 0.875rem;
+      color: rgba(255, 255, 255, 0.75);
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Mobile polish
+// -----------------------------------------------------------------------------
+@media (width <= 760px) {
+  .design-system nav {
+    justify-content: center;
+
+    & > ul {
+      justify-content: center;
+    }
+  }
+
+  .design-system section {
+    padding-block: 3.5rem !important;
+  }
 }

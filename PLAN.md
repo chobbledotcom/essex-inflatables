@@ -1,7 +1,22 @@
 # Site Fixes Plan
 
-## September 2026 — Images, Gallery, Reviews & Template Migration
+## September 2026 — "Funfair Workshop" Design Pass
 
+Completed after the content pass (2026-09-26):
+
+- [x] Brand identity: new `css/theme.scss` — cream paper background, navy ink, castle-red links, mango-yellow accents, chunky pill buttons with offset "comic" shadows, dashed stitch motifs, self-hosted Fredoka One (headings) + Nunito (body) from Bunny Fonts in `assets/fonts/`
+- [x] Logo from the image dump in use: circular crop of the official badge (transparent PNG) as the header lockup (`_includes/navigation-start.html`) — badge + wordmark + "Repairs & PIPA Testing" tagline — and in the footer
+- [x] Branded 1200×630 og-image (finished castle photo + badge) set on the home page for social shares
+- [x] Home page: parallax hero, "Inspected, Certified & Connected" logo marquee (PIPA, TIPE, Ellis Leisure, our badge), big red Fredoka stat numerals
+- [x] New footer: circular logo, Explore / Get in touch columns, towns-served line, round gold socials
+- [x] Right sidebar restyled as a bordered card with compact contact list and small badges
+- [x] Links page logos padded onto uniform 3:2 white canvases (`*-logo-card.png`) so nothing crops
+- [x] Detailed visual verification via headless-browser screenshots reviewed by the vision model — fixed as-found: nav logo img sizing (CSS specificity vs `.design-system img`), visited-link colours, dark-section heading/card contrast (theme-colour vars instead of hardcoded ink), stats value typography, footer alignment + socials
+- [x] Fixed prep bug: `repo/_site` output was being re-copied into the dev tree and breaking subsequent local builds (`_site` added to rootExcludes)
+
+Design notes: reveal-on-scroll animations are WAAPI-driven, so full-page screenshot captures with forced CSS can still show blank sections — verified live instead by scroll-through captures. Marquee animates client-side (promo logos sit left until JS runs).
+
+## September 2026 — Images, Gallery, Reviews & Template Migration
 Completed in this session (2026-09-26):
 
 - [x] Described all 107 photos from Harry's "Stefan Essex web" zip with the vision model — catalog saved at `info/image-descriptions.json`
